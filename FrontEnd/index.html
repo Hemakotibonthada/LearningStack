@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 500px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #d32f2f;
+            font-size: 1.8rem;
+        }
+
+        a {
+            color: #1976d2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        select {
+            margin-top: 15px;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 80%;
+        }
+
+        label {
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        .note {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+    <script>
+        function navigateToPage() {
+            const selectedValue = document.getElementById("Developer").value;
+            if (selectedValue) {
+                window.location.href = selectedValue;
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>This webpage is for Practice & Work Monitoring </h1>
+
+        <p><a href="https://github.com/Hemakotibonthada/fullstack.git" target="_blank">Our Repository on GitHub</a></p>
+
+        <label for="Developer">Choose a developer name to view their work progress:</label>
+        <select name="Developer" id="Developer" onchange="navigateToPage()">
+            <option value="">--Select Developer--</option>
+            <option value="Hema.html">Hemakoti Bonthada</option>
+            <option value="Teja.html">Tejasri Veeranki</option>
+            <option value="Pavani.html">Pavani Ganta</option>
+            <option value="Shanmitha.html">Shanmitha</option>
+        </select>
+
+        <p class="note">Select a developer to navigate to their page.</p>
+    </div>
+</body>
+</html>
