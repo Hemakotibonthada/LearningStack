@@ -11,8 +11,8 @@
             margin: 0;
             padding: 0;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
             height: 100vh;
         }
 
@@ -22,8 +22,9 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 20px;
+            margin: auto;
             max-width: 500px;
-            width: 100%;
+            width: 90%;
         }
 
         h1 {
@@ -60,6 +61,23 @@
             font-size: 0.9rem;
             color: #666;
         }
+
+        footer {
+            text-align: center;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        footer a {
+            color: #4caf50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
     </style>
     <script>
         function navigateToPage() {
@@ -72,7 +90,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>This webpage is for Practice & Work Monitoring </h1>
+        <h1>This webpage is for Practice & Work Monitoring</h1>
 
         <p><a href="https://github.com/Hemakotibonthada/LearningStack.git" target="_blank">Our Repository on GitHub</a></p>
 
@@ -87,5 +105,9 @@
 
         <p class="note">Select a developer to navigate to their page.</p>
     </div>
+    <footer>
+        <p>&copy; 2024 Practice & Work Monitoring</p>
+        <p><a href="about.html">Learn more about us</a></p>
+    </footer>
 </body>
 </html>
