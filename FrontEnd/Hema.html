@@ -7,19 +7,67 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <style>
-        .home-link {
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .biodata-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+
+        h1, h2, h3 {
+            color: #1976d2;
+        }
+
+        p, ul {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .home-link, .portfolio-link {
             text-align: center;
             margin-top: 20px;
         }
 
-        .home-link a {
+        .home-link a, .portfolio-link a {
             color: #1976d2;
             font-weight: bold;
             text-decoration: none;
         }
 
-        .home-link a:hover {
+        .home-link a:hover, .portfolio-link a:hover {
             text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        footer button {
+            padding: 10px 20px;
+            background-color: #1976d2;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer button:hover {
+            background-color: #005bb5;
         }
     </style>
 </head>
@@ -50,6 +98,9 @@
         <div class="home-link">
             <a href="index.html">← Back to Home</a>
         </div>
+        <div class="portfolio-link">
+            <h2><a href="Hemaportfolio.html">Click Here For My Portfolio</a></h2>
+        </div>
         <footer>
             <button id="contact-btn">Contact Me</button>
             <p>&copy; 2024 {{name}}</p>
@@ -73,6 +124,5 @@
             };
         });
     </script>
-    <H2><a href="Hemaportfolio.html"> Click Here For My Portfolio</a></H2>
 </body>
 </html>
