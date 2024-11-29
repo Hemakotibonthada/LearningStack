@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="PracticeApp">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -23,7 +26,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 20px;
             margin: auto;
-            max-width: 500px;
+            max-width: 600px;
             width: 90%;
         }
 
@@ -79,36 +82,60 @@
             text-decoration: underline;
         }
     </style>
-    <script>
-        function navigateToPage() {
-            const selectedValue = document.getElementById("Developer").value;
-            if (selectedValue) {
-                window.location.href = selectedValue;
-            }
-        }
-    </script>
 </head>
-<body>
+<body ng-controller="MainController">
     <div class="container">
-        <h1>This webpage is for Practice & Work Monitoring</h1>
-
-        <p><a href="https://github.com/Hemakotibonthada/LearningStack.git" target="_blank">Our Repository on GitHub</a></p>
+        <h1>{{title}}</h1>
+        <p><a href="https://github.com/Hemakotibonthada/LearningStack.git" target="_blank">{{repositoryText}}</a></p>
 
         <label for="Developer">Choose a developer name to view their work progress:</label>
-        <select name="Developer" id="Developer" onchange="navigateToPage()">
+        <select name="Developer" id="Developer" ng-change="navigateToPage()" ng-model="selectedDeveloper">
             <option value="">--Select Developer--</option>
-            <option value="Hema.html">Hemakoti Bonthada</option>
-            <option value="Teja.html">Tejasri Veeranki</option>
-            <option value="Pavani.html">Pavani Ganta</option>
-            <option value="Shanmitha.html">Shanmitha</option>
-            <option value="Practice.html">Practice page</option>
+            <option ng-repeat="developer in developers" value="{{developer.page}}">{{developer.name}}</option>
         </select>
 
-        <p class="note">Select a developer to navigate to their page.</p>
+        <p class="note">{{note}}</p>
     </div>
+
+    <!-- React Section -->
+    <div id="react-section"></div>
+
     <footer>
         <p>&copy; 2024 Practice & Work Monitoring</p>
         <p><a href="about.html">Learn more about us</a></p>
     </footer>
+
+    <!-- Angular Script -->
+    <script>
+        angular.module('PracticeApp', []).controller('MainController', function ($scope) {
+            $scope.title = "This webpage is for Practice & Work Monitoring";
+            $scope.repositoryText = "Our Repository on GitHub";
+            $scope.note = "Select a developer to navigate to their page.";
+            $scope.developers = [
+                { name: "Hemakoti Bonthada", page: "Hema.html" },
+                { name: "Tejasri Veeranki", page: "Teja.html" },
+                { name: "Pavani Ganta", page: "Pavani.html" },
+                { name: "Shanmitha", page: "Shanmitha.html" },
+                { name: "Practice page", page: "Practice.html" }
+            ];
+            $scope.navigateToPage = function () {
+                if ($scope.selectedDeveloper) {
+                    window.location.href = $scope.selectedDeveloper;
+                }
+            };
+        });
+    </script>
+
+    <!-- React Script -->
+    <script>
+        const ReactComponent = () => {
+            return React.createElement('div', { style: { textAlign: 'center', marginTop: '20px' } },
+                React.createElement('h2', {}, 'Welcome to the Practice Platform'),
+                React.createElement('p', {}, 'This section is powered by React. Enjoy exploring!')
+            );
+        };
+
+        ReactDOM.render(React.createElement(ReactComponent), document.getElementById('react-section'));
+    </script>
 </body>
 </html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="portfolioApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hema Koteswara Rao - Portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h1, h2 {
+            color: #1976d2;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body ng-controller="PortfolioController">
+    <header>
+        <h1>{{name}}</h1>
+        <p>Contact: {{email}} | {{phone}}</p>
+    </header>
+    <main>
+        <section>
+            <h2>Educational Background</h2>
+            <ul>
+                <li ng-repeat="edu in education">
+                    <strong>{{edu.degree}}</strong> - {{edu.institution}}, {{edu.location}} ({{edu.year}})
+                    <ul>
+                        <li ng-repeat="proj in edu.projects">Project: {{proj}}</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li ng-repeat="skill in skills">{{skill}}</li>
+            </ul>
+        </section>
+        <div id="react-projects"></div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Hema Koteswara Rao</p>
+    </footer>
+
+    <!-- Angular Script -->
+    <script>
+        angular.module('portfolioApp', [])
+        .controller('PortfolioController', function($scope) {
+            $scope.name = "Hema Koteswara Rao";
+            $scope.email = "Hemakotibonthada@gmail.com";
+            $scope.phone = "+91 9966123105";
+            $scope.education = [
+                {
+                    degree: "Bachelor of Technology",
+                    institution: "GIET Engineering College",
+                    location: "Rajahmundry",
+                    year: "2023",
+                    projects: [
+                        "Women Safety Device",
+                        "Fault Detection System",
+                        "Home Automation"
+                    ]
+                },
+                {
+                    degree: "Diploma in Engineering",
+                    institution: "Sri Shiridi Sai Diploma in Engineering & Technology",
+                    location: "Maripivalasa",
+                    year: "2020",
+                    projects: [
+                        "Small Load Inverter",
+                        "Smart Street Light Controlling System"
+                    ]
+                }
+            ];
+            $scope.skills = [
+                "HTML, CSS, JavaScript",
+                "Angular, React",
+                "Arduino, ESP32, PCB Design",
+                "C, Python, SQL"
+            ];
+        });
+    </script>
+
+    <!-- React Script -->
+    <script>
+        const ReactProjects = () => {
+            return React.createElement('div', null,
+                React.createElement('h2', null, 'Highlighted Projects'),
+                React.createElement('p', null, 'Explore some of my key projects like Home Automation and Women Safety Device!')
+            );
+        };
+
+        ReactDOM.render(
+            React.createElement(ReactProjects),
+            document.getElementById('react-projects')
+        );
+    </script>
+</body>
+</html>

@@ -1,40 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="HemaApp">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hema Koti Bio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .biodata-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+
+        h1, h2, h3 {
+            color: #1976d2;
+        }
+
+        p, ul {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .home-link, .portfolio-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .home-link a, .portfolio-link a {
+            color: #1976d2;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .home-link a:hover, .portfolio-link a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        footer button {
+            padding: 10px 20px;
+            background-color: #1976d2;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer button:hover {
+            background-color: #005bb5;
+        }
+    </style>
 </head>
-<body>
+<body ng-controller="HemaController">
     <div class="biodata-container">
         <header>
-            <h1>B. Hema Koteswara Rao</h1>
-            <h2>Electrical & Electronics Engineer</h2>
-            <p>📞 9966123105 | ✉️ Hemakotibonthada@gmail.com</p>
+            <h1>{{name}}</h1>
+            <h2>{{designation}}</h2>
+            <p>📞 {{contact}} | ✉️ <a href="mailto:{{email}}">{{email}}</a></p>
         </header>
         <section>
             <h3>Objective</h3>
-            <p>Seeking a challenging position in a vibrant organization to improve skills in various technologies and contribute to its success.</p>
+            <p>{{objective}}</p>
         </section>
         <section>
             <h3>Work Experience</h3>
             <ul>
-                <li><strong>Assistant System Engineer</strong> at TCS (Jun 2024 - Present)</li>
-                <li><strong>Research and Development Manager</strong> at Arhasri Technologies (Aug 2023 - May 2024)</li>
-                <li>Over 10 years of part-time experience in Electrical & Electronics Installation and Wiring Services.</li>
+                <li ng-repeat="job in workExperience">
+                    <strong>{{job.role}}</strong> at {{job.company}} ({{job.duration}})
+                </li>
             </ul>
         </section>
         <section>
             <h3>Technical Skills</h3>
-            <p><strong>Electrical:</strong> Installation, Repairs, and The Repower Generating System.</p>
-            <p><strong>Electronics:</strong> Arduino-based IoT Projects, PCB Design, and Microcontrollers (ESP32, ATMEGA 328P).</p>
+            <p><strong>Electrical:</strong> {{skills.electrical}}</p>
+            <p><strong>Electronics:</strong> {{skills.electronics}}</p>
         </section>
+        <div class="home-link">
+            <a href="index.html">← Back to Home</a>
+        </div>
+        <div class="portfolio-link">
+            <h2><a href="Hemaportfolio.html">Click Here For My Portfolio</a></h2>
+        </div>
         <footer>
             <button id="contact-btn">Contact Me</button>
-            <p>&copy; 2024 Hema Koteswara Rao</p>
+            <p>&copy; 2024 {{name}}</p>
         </footer>
     </div>
-    <script src="script.js"></script>
+    <script>
+        angular.module('HemaApp', []).controller('HemaController', function($scope) {
+            $scope.name = "B. Hema Koteswara Rao";
+            $scope.designation = "Electrical & Electronics Engineer";
+            $scope.contact = "9966123105";
+            $scope.email = "Hemakotibonthada@gmail.com";
+            $scope.objective = "Seeking a challenging position in a vibrant organization to improve skills in various technologies and contribute to its success.";
+            $scope.workExperience = [
+                { role: "Assistant System Engineer", company: "TCS", duration: "Jun 2024 - Present" },
+                { role: "Research and Development Manager", company: "Arhasri Technologies", duration: "Aug 2023 - May 2024" },
+                { role: "Part-Time Technician", company: "Self-Employed", duration: "10+ Years" }
+            ];
+            $scope.skills = {
+                electrical: "Installation, Repairs, and The Repower Generating System.",
+                electronics: "Arduino-based IoT Projects, PCB Design, and Microcontrollers (ESP32, ATMEGA 328P)."
+            };
+        });
+    </script>
 </body>
 </html>
