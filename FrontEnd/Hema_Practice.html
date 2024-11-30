@@ -295,7 +295,7 @@
 
 <p>This Is Reging Forms in HTMl</p>
 
-<form action="/FrontEnd/server.js">
+<form action="server.js">
    
    <label>
 
@@ -311,12 +311,18 @@
 <hr>
 <h2>Concept of lables in html with id's</h2>
 <form action="script.js">
-    <label for="username">Enter your username</label>
-    <input type="text" id="username" placeholder="username"><br>
+    <label for="name">Enter your username</label>
+    <input type="text" id="name" placeholder="username" name="user"/><br>
     <label for="pass">Enter your Password</label>
-    <input type="password" id="pass" placeholder="password"><br>
+    <input type="password" id="pass" placeholder="password" name="pass"/><br>
     <button type="submit">Submit</button>
 </form>
-
+<hr>
+<form action="https://www.google.com/search?">
+<label for="ser"> 
+    <input type="text" id="ser" placeholder="search in google" name="q">
+</label>
+<button type="submit">Search</button>
+</form>
 </body>
 </html>
