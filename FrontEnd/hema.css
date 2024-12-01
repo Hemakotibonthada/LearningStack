@@ -1,9 +1,22 @@
-h2{
+h1{
             color: blueviolet;
+            background-color: rgb(13, 238, 167);
             background-color: yellow;
             text-align: justify;
 }
 div{
+    P{
+        color: white;
+        background-color: black;
+    }
+    h2{
+        color: orange;
+    }
+    button{
+        background-color: blue;
+        color: white;
+    }
+    
     color: brown;
     background-color: aquamarine;
     text-align: center;
