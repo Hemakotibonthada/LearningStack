@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice</title>
+    <link rel="stylesheet" href="hema.css">
+    
 </head>
 <body>
+    
     <header>This Page Only for the purpose of practice On What We Learning on the Html Page.</header>
     <ol type="A" >
         <li><h3>Major Side Heading </h3></li>
@@ -253,6 +256,139 @@
         </tr>
     </tbody>
 </table>
+<hr>
+<P> practice Table</P>
 
+<table border="black">
+    <caption>
+        A test Table with merged cells
+    </caption>
+    <thead>
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2">Average</th>
+            <th rowspan="2">Red eyes</th>
+        </tr>
+        <tr>
+            <th>Height</th>
+            <th>Weight</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Males</td>
+        <td>1.9</td>
+        <td>0.003</td>
+    <td>40%</td>
+    </tr>
+        <tr>
+
+            <td>Females</td>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<hr>
+<h2>Concept on Input Types on HTML</h2>
+
+
+<p>This Is Reging Forms in HTMl</p>
+
+<form action="server.js">
+   
+   <label>
+
+   id
+    <input type="email" placeholder="Enter your mail id"/><br>
+</label> 
+<label>  password
+    <input type="password" placeholder="Password"> <br>
+</label> 
+    <button>login</button>
+    
+</form>
+<hr>
+<h2>Concept of lables in html with id's</h2>
+<form action="script.js">
+    <label for="name">Enter your username</label>
+    <input type="text" id="name" placeholder="username" name="user"/><br>
+    <label for="pass">Enter your Password</label>
+    <input type="password" id="pass" placeholder="password" name="pass"/><br>
+    <button type="submit">Submit</button>
+    <input type="password" id="pass" placeholder="password"><br>
+    <button type="submit">Submit</button><hr>
+
+    <input type="submit" value="Submit">
+</form>
+<hr>
+<form action="https://www.google.com/search?">
+<label for="ser"> 
+    <input type="text" id="ser" placeholder="search in google" name="q">
+</label>
+<button type="submit">Search</button>
+</form>
+
+<!-- Revision of Table Concept-->
+<hr>
+<table border="2">
+    <caption>
+        Practicing table
+    </caption>
+    <thead>
+        <tr>
+            <th colspan="2">
+                Student
+            </th>
+            <th rowspan="2">
+                Class
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Student A</td>
+            <td>Student B</td>
+        </tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+</table>
+<hr>
+
+
+<hr>
+<form action="https://www.google.com/search?">
+<input type="text" placeholder="Google Something" name="q">
+</form>
+<h2>Concept on checkbox</h2>
+<form action="/server.js">
+<label for="check"> This is checkbox</label>
+<input type="checkbox" id="check" name="checkbox" />
+<button>Submit</button>
+</form><hr>
+<form action="server.js">
+<h2>This a Radio Box</h2>
+<label for="radio">This Is Radio Box</label>
+<input type="radio" id="radio" name="radio" value="radio"/>
+<button>submit</button>
+</form><hr>
+
+<h1>Dropdown Example</h1>
+    <label for="options">Choose an option:</label>
+    <div>
+        <form action="server.js">
+    <select id="options" name="options">
+        <option value="option1" name="options">Option 1</option>
+        <option value="option2" name="options">Option 2</option>
+        <option value="option3" name="options">Option 3</option>
+        <option value="option4" name="options">Option 4</option>
+    </select>
+    <button>Submit</button>
+</form>
+</div>
 </body>
 </html>
