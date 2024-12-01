@@ -13,7 +13,7 @@
             <tr>
                 <th rowspan="2">Languages</th>
                 <th rowspan="2">fees</th>
-                <th colspan="2">course details</th>
+                <th colspan="4">course details</th>
             </tr>
             <tr>
                 <th>1st term</th>
@@ -48,10 +48,46 @@
                 <td>hybrid</td>
             </tr>
         </table>
-        
-               
+        <hr>
+        <h2>inputs tags & Attributes</h2>
+        <form action="/server">
+            <div>
+   <label  for="username" >enter user name</label> 
+<input type="text" placeholder="enter the name" id="username"  name="username"><br><br>
+<label for="enter the password">enter the password</label>
+<input type="password" placeholder="password">
+<!---<input type="color" placeholder="color"><br><br>-->
+</div>
+<button type="submit">Submit</button>
+<button type="button">clickhere</button>
+<button type="reset">reset</button>
+<hr>
+<lable for="age">i am 18+ age </lable>
+<input type="checkbox" name="age" id="age" >
+<div></div>
+<label for="lang">Languages</label>
 
+<select name="Languages" id="lang">
+    <option value="telugu">telugu</option>
+    <option value="english">english</option>
+</select>
+</div>
+</form>
+<hr>
+<h2>google search</h2>
+<form action="https://www.youtube.com/results?search_query=google">
+    <input type="text" placeholder="search here" name="search_query">
+    <button type="sumbit">Sumbit</button>
+</form>
+<h3>volume</h3>
+<form action="/server">
+<label for="volume">volume</label>
+<input type="range" min="0" max="100" name="volume" step="10" value="80">
+<button type="submit">Submit</button>
+</form>
+<hr>
+<label for="feedback">Feedback:</label>
+<textarea id="feedback" name="feedback" placeholder="Write here..."></textarea>
 
-        
 </body>
 </html>
