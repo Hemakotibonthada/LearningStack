@@ -1,8 +1,22 @@
 h2{
             color: blueviolet;
             background-color: yellow;
+            text-align: justify;
 }
 div{
     color: brown;
+    background-color: aquamarine;
+    text-align: center;
+    border:solid
+}
+p{
+    color:darkslategrey ;
+    background-color: coral;
+    text-align: right;
+}
+
+button{
+    color:darkgoldenrod;
+    background-color: black;
 }
   
