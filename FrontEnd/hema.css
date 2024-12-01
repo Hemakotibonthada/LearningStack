@@ -1,8 +1,19 @@
 h1{
             color: blueviolet;
-            background-color: yellow;
+            background-color: rgb(13, 238, 167);
 }
 div{
-    color: brown;
+    P{
+        color: white;
+        background-color: black;
+    }
+    h2{
+        color: orange;
+    }
+    button{
+        background-color: blue;
+        color: white;
+    }
+    
 }
   

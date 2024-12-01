@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice</title>
+    <!--Linking HTML With External CSS File-->
+
     <link rel="stylesheet" href="hema.css">
     
 </head>
@@ -314,13 +316,55 @@
 <hr>
 <h2>Concept of lables in html with id's</h2>
 <form action="script.js">
-    <label for="username">Enter your username</label>
-    <input type="text" id="username" placeholder="username"><br>
+    <label for="name">Enter your username</label>
+    <input type="text" id="name" placeholder="username" name="user"/><br>
     <label for="pass">Enter your Password</label>
+    <input type="password" id="pass" placeholder="password" name="pass"/><br>
+    <button type="submit">Submit</button>
     <input type="password" id="pass" placeholder="password"><br>
     <button type="submit">Submit</button><hr>
 
     <input type="submit" value="Submit">
+</form>
+<hr>
+<form action="https://www.google.com/search?">
+<label for="ser"> 
+    <input type="text" id="ser" placeholder="search in google" name="q">
+</label>
+<button type="submit">Search</button>
+</form>
+
+<!-- Revision of Table Concept-->
+<hr>
+<table border="2">
+    <caption>
+        Practicing table
+    </caption>
+    <thead>
+        <tr>
+            <th colspan="2">
+                Student
+            </th>
+            <th rowspan="2">
+                Class
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Student A</td>
+            <td>Student B</td>
+        </tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+</table>
+<hr>
+
+
+<hr>
+<form action="https://www.google.com/search?">
+<input type="text" placeholder="Google Something" name="q">
 </form>
 <h2>Concept on checkbox</h2>
 <form action="/server.js">
@@ -348,5 +392,19 @@
     <button>Submit</button>
 </form>
 </div>
+
+<p>Practice Question on css</p>
+
+<div>
+<h2>Hi There!</h2>
+<p>My Name Is Hemakoteswar Naidu & i Am There to help you.</p>
+
+<button>Need help</button>
+
+
+</div>
+
+
+
 </body>
 </html>
