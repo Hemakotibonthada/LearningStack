@@ -91,3 +91,11 @@ button{
     color:black
  }
 }
+
+#special{
+    color:darkred
+}
+
+.form > ::placeholder {
+    background-color:aqua    
+}
