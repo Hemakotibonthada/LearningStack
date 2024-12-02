@@ -13,7 +13,7 @@ h1{
             background-color: yellow;
             text-align: justify;
 }
-div{
+div1{
     P{
         color: white;
         background-color: black;
@@ -34,7 +34,7 @@ div{
     }
     
     color: brown;
-    background-color: aquamarine;
+    background-color: #ffffff;
     text-align: center;
     border:solid
 }
@@ -71,4 +71,24 @@ button{
         text-decoration: teal double underline;
         text-transform: uppercase;
     }
+#practice1{
+    font-family: "courier new";
+    l1{ 
+        color: #1b74e4;
+        text-align: left;
+        font-size: 40px;
+        font-weight: bold;
+    }
+ .Sign{
+    background-color: aqua;
+    color: #1b74e4;
+ } 
+ .search{
+    background-color: black;
+    color: white;
+ }  
+ #ser{
+    color:black
+ }
+}
   
