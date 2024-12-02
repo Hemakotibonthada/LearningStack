@@ -15,9 +15,13 @@ h2{
     color:#1b74e4;
 }
 #login{
-    background-color: blue;
+    background-color:aqua;
 }
 #register{
-    background-color: blue;
+    background-color:aqua;
+}
+button{
+    background-color:black;
+    color:white
 }
 
