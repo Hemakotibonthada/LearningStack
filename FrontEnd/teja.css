@@ -23,13 +23,17 @@ h1{
 h2{
     color: #1b74e4;
 }
-
-button{
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.button{
      color: black;
-     }
-     button{
         background-color: aqua;
-     }
+}
+.ser{
+    background-color: black;
+    color:white;
+}
      
 
 
