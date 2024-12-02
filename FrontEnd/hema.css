@@ -6,11 +6,9 @@ header{
     text-decoration-color:purple;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
-h1 { font-family: "Brush Script MT", cursive; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Brush Script MT", cursive; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Brush Script MT", cursive; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Brush Script MT", cursive; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Brush Script MT", cursive; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
-h1{
-            color: blueviolet;
+h2{
             background-color: rgb(13, 238, 167);
-            background-color: yellow;
+            background-color: black;
             text-align: justify;
 }
 div1{
@@ -71,9 +69,12 @@ button{
         text-decoration: teal double underline;
         text-transform: uppercase;
     }
-#practice1{
+*{
+
     font-family: "courier new";
-    l1{ 
+}
+#practice1{
+    h1{ 
         color: #1b74e4;
         text-align: left;
         font-size: 40px;
@@ -91,4 +92,3 @@ button{
     color:black
  }
 }
-  
