@@ -1,6 +1,17 @@
-h2{
+header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-color:purple;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+h1 { font-family: "Brush Script MT", cursive; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Brush Script MT", cursive; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Brush Script MT", cursive; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Brush Script MT", cursive; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Brush Script MT", cursive; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+h1{
             color: blueviolet;
             background-color: rgb(13, 238, 167);
+            background-color: yellow;
+            text-align: justify;
 }
 div{
     P{
@@ -9,11 +20,40 @@ div{
     }
     h2{
         color: orange;
+        font-family: Georgia;
     }
     button{
         background-color: blue;
         color: white;
     }
+    Hema{
+        color: #fcba03;
+    }
+    koti{
+        color: #0a81a6;
+    }
     
+    color: brown;
+    background-color: aquamarine;
+    text-align: center;
+    border:solid
 }
-  
+p{
+    color:darkslategrey ;
+    background-color: coral;
+    text-align: right;
+}
+
+button{
+    color:darkgoldenrod;
+    background-color: black;
+}
+  test{
+    font-weight: bold;
+    text-decoration:underline ;
+    text-decoration-color: purple;
+    line-height: normal;
+    letter-spacing: 10px;
+    background-color:antiquewhite ;
+    font-size: 15px;
+  }
