@@ -7,17 +7,17 @@ button{
     color: white;
 }
 p{
-    background-color: plum;
+    background-color: rgb(187, 74, 187);
 }
-P{
+p{
     color: #ffa511;
-    font-family:league spartan ;
-    text-align: center;
-    font-size:  55px;
-    font-weight: 900;
-    letter-spacing: 2px;
-    line-height: 1.5px;
-    text-decoration: teal double underline;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align: left;
+    font-size:  15px;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 2;
+    text-decoration: underline;
 
 }
 
