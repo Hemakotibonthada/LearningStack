@@ -52,8 +52,23 @@ button{
     font-weight: bold;
     text-decoration:underline ;
     text-decoration-color: purple;
-    line-height: normal;
+    line-height: 2;
     letter-spacing: 10px;
     background-color:antiquewhite ;
     font-size: 15px;
   }
+  a{
+    text-decoration: none;
+  }
+#practice {
+        font-family: "League Spartan";
+        color: #ffa511;
+        text-align: center;
+        font-size: 55px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        line-height: 1.5x;
+        text-decoration: teal double underline;
+        text-transform: uppercase;
+    }
+  
