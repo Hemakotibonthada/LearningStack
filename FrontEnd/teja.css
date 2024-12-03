@@ -1,25 +1,54 @@
-h1{
-    color: orange;
-    
+h2{
+    color: #00eeffce;
 }
-button{
-    background-color: blue;
+    
+    
+
+
+p{
+    background-color: black;
     color: white;
 }
-p{
-    background-color:black;
-}
-h1{
-    color: #ffa511;
-    font-family: 'Lucida Sans';
+
+
+
+ h1{
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     font-size:  55px;
     font-weight: 900;
     letter-spacing: 2px;
-    line-height: 1.5px;
+    line-height: 1.5x;
     text-decoration: underline;
+    text-transform: uppercase;
+    text-decoration-color: aqua;
+    
+ }
 
+<<<<<<< HEAD
+    
+
+     
+=======
 }
+h2{
+    color: #1b74e4;
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.button{
+     color: black;
+        background-color: aqua;
+}
+.ser{
+    background-color: black;
+    color:white;
+}
+>>>>>>> 5821d238a94905170811bc3f56f87009cf78e18d
+     
+
 
 
 

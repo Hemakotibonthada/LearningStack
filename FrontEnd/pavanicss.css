@@ -1,0 +1,25 @@
+h1{
+    color:red
+}
+h2{
+    color:brown
+}
+.upvote{
+color:white;
+background-color:green;
+}
+.answer{
+    background-color: blue;
+}
+
+.Follow{
+    color:darkgoldenrod;
+
+}
+div>input{
+    background-color:coral;
+    color: white;
+}
+#signup{
+    background-color: brown;
+}

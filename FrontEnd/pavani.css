@@ -1,6 +1,27 @@
 h1{
-    color:yellow;
+    color: #ffa511;
+    font-family:League spartan;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5px;
     text-decoration: underline;
     text-align: center;
+    text-transform:uppercase;
+    text-decoration: teal double;
+    
     
 }
+h2{
+    color:#1b74e4;
+}
+#login{
+    background-color:rgba(0, 255, 255, 0.854);
+}
+#register{
+    background-color:aqua;
+}
+button{
+    background-color:black;
+    color:white
+}
+
