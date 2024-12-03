@@ -100,7 +100,7 @@ button{
     background-color:aqua   
 }
 
-#myId > p{
-    font-size: 25px;
+#myId  p{
+    font-size:30px;
     color: green;
 }
