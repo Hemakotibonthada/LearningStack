@@ -37,7 +37,7 @@ div1{
 }
 p{
     color:darkslategrey ;
-    background-color: coral;
+    background-color: whitesmoke;
     text-align: right;
 }
 
@@ -97,5 +97,10 @@ button{
 }
 
 .form > ::placeholder {
-    background-color:aqua    
+    background-color:aqua   
+}
+
+#myId > p{
+    font-size: 25px;
+    color: green;
 }
