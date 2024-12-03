@@ -25,28 +25,42 @@ p{
     text-decoration-color: aqua;
     
  }
+ h2{
+    color: red;
+    
+ }
+ button{
+    color: black;
+ }
+ #p{
+    color: black;
+ }
+ #myid p{
+    color: darkgreen;
+ }
 
-<<<<<<< HEAD
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
     
 
      
-=======
-}
-h2{
-    color: #1b74e4;
-}
-*{
-    font-family: 'Courier New', Courier, monospace;
-}
-.button{
-     color: black;
-        background-color: aqua;
-}
-.ser{
-    background-color: black;
-    color:white;
-}
->>>>>>> 5821d238a94905170811bc3f56f87009cf78e18d
      
 
 
