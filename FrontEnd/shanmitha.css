@@ -26,3 +26,37 @@
     border-right-color: bisque;
     border-radius: 15px;
 }
+#outer{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+    margin-top: 20px;
+
+}
+#red{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: red;
+
+}
+#yellow{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: yellow;
+    
+}
+#green{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: green;
+    
+}
