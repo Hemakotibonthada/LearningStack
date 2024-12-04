@@ -4,8 +4,12 @@ div{
     border-radius: 15px;
                
                       
-        border:2px solid ;
+        border: 5px solid ;
+        border-left-color:brown;
+        border-right-style: dashed;
+        border-right-color: brown;
+
             border-radius: 15px;    
             border-bottom: 10px;
-            background-color:blueviolet; 
+            background-color:pink; 
 }
