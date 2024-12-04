@@ -147,3 +147,30 @@ a{
     border: 6px dotted pink;
     border-radius: 30px;
 }
+#parent{
+    height: 200px;
+    width: 70px;
+    border: 10px;
+    border-color: white;
+    border-style: double;
+    border-color: black;
+    margin: 10px;
+
+}
+.child{
+    height: 20px;
+    width: 20px;
+    border:2px solid black;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+}
+#parent #k{
+    background-color: red;
+}
+#parent #l{
+    background-color: yellow;
+}
+#m{
+    background-color: green;
+}
