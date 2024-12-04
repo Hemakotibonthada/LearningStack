@@ -117,12 +117,12 @@ button{
     color: red;
     font-size: 80px;
 }
-.active:active label[for="Hema"] {
+#Hema:active +label {
     background-color: whitesmoke;
     color: red;
     font-weight: bold;
 }
-.active:active label[for="Teja"] {
+#Teja:active + label {
     background-color: whitesmoke;
     color: rgb(5, 13, 167);
     font-weight: bold;
@@ -139,4 +139,11 @@ button{
 a{
     font-size: 50px;
     background-color: darkorchid;
+}
+
+#border{
+    height: 300px;
+    width: 650px;
+    border: 6px dotted pink;
+    border-radius: 30px;
 }
