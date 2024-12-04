@@ -6,7 +6,7 @@
 
 
  div{
-    background-color: black;
+    
     color: white;
 }
 
@@ -36,16 +36,16 @@
     
  }
   span>button{
-    background-color:aqua ;
+    background-color:aqua ;}
  button {
     color: black;
  }
- #ser{ background-color: black;
+ /* #ser{ background-color: black;
        color: white;
 }
  #search{
    background-color: black;
- }
+ } */
  #Adem{
     color: black;
     
@@ -56,12 +56,34 @@
  #myid p {
     color: darkgreen;
  }
- p{
+ #box{
   height: 200px;
   width: 200px;
-  border: 2px pink;
+  border: 2px  pink;
   border-top: 50px;
   border: radius 10px;;
+ }
+ #outer{
+  height: 200px;
+  width: 70px;
+  border: 2px solid grey;
+ }
+ .inner{
+  height: 50px;
+  width: 50px;
+  border: 2px solid gray;
+  margin: 10px;
+  border-radius: 50%;
+
+ }
+ #red{
+  background-color: red;
+ }
+ #yellow{
+  background-color: yellow;
+ }
+ #green{
+background-color: green;
  }
 
  
