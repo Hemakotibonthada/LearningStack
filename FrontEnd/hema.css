@@ -104,3 +104,46 @@ button{
     font-size:30px;
     color: green;
 }
+.Hema{
+    font-size: 50px;
+}
+.Hema:hover{
+    background-color: black;
+    color: #1b74e4;
+    
+}
+.Hema:active label {
+    background-color: whitesmoke;
+    color: red;
+    font-size: 80px;
+}
+#Hema:active +label {
+    background-color: whitesmoke;
+    color: red;
+    font-weight: bold;
+}
+#Teja:active + label {
+    background-color: whitesmoke;
+    color: rgb(5, 13, 167);
+    font-weight: bold;
+}
+
+#kk a{
+    font-size: 20px;
+    background-color: rgb(244, 255, 255);
+}
+.Pavani a{
+    font-size: 50px;
+    background-color: rgb(38, 218, 215);
+}
+a{
+    font-size: 50px;
+    background-color: darkorchid;
+}
+
+#border{
+    height: 300px;
+    width: 650px;
+    border: 6px dotted pink;
+    border-radius: 30px;
+}

@@ -18,3 +18,11 @@
 #myid  p{
     color: green;
 }
+#my{
+    height: 200px;
+    width: 200px;
+    border: 20px solid blueviolet ;
+    border-left-style: dashed;
+    border-right-color: bisque;
+    border-radius: 15px;
+}
