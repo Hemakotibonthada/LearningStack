@@ -1,18 +1,18 @@
-h2{
-    color: #00eeffce;
+#Hithere{
+    color: orange;
 }
     
     
 
 
-p{
+ div{
     background-color: black;
     color: white;
 }
 
 
 
- h1{
+  divh1{
     color: blue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
@@ -25,18 +25,41 @@ p{
     text-decoration-color: aqua;
     
  }
- h2{
-    color: red;
+ #name{color: brown;
+       text-align: center;
+       text-decoration:underline;
+       text-decoration-color: darkgreen;
+
+ }
+  div h2{
+    color:blue ;
     
  }
- button{
-    color: black;
+  span>button{
+    background-color:aqua ;
  }
- #p{
-    color: black;
+ #ser{ background-color: black;
+       color: white;
+}
+ #search{
+   background-color: black;
  }
- #myid p{
+ #Adem{
+    color: black;
+    
+ }
+ #Follow Adem{
+   color: darkgoldenrod;
+ }
+ #myid p {
     color: darkgreen;
+ }
+ p{
+  height: 200px;
+  width: 200px;
+  border: 2px pink;
+  border-top: 50px;
+  border: radius 10px;;
  }
 
  
