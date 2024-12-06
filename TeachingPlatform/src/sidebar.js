@@ -1,25 +1,29 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Sidebar = ({ courses, onVideoSelect }) => {
+const Sidebar = ({ courses, onLogout }) => {
     return (
-        <div>
-            <h2>Course Modules</h2>
-            <ul>
-                {Object.entries(courses).map(([module, videos]) => (
-                    <li key={module}>
-                        <strong>{module}</strong>
-                        <ul>
-                            {videos.map((video, index) => (
-                                <li key={index}>
-                                    <a href="#" onClick={() => onVideoSelect(video)}>
-                                        {video.split('/').pop().replace(".mp4", "")}
-                                    </a>
-                                </li>
-                            ))}
-                        </ul>
-                    </li>
-                ))}
-            </ul>
+        <div className="sidebar">
+            <h2>Courses</h2>
+            {Object.entries(courses).map(([module, videos]) => (
+                <div className="card">
+                    <h3>{module}</h3>
+                    <ul>
+                        {videos.map((video, index) => (
+                            <li key={index}>
+                                <Link to="#" onClick={() => alert(`Selected video: ${video}`)}>
+                                    {video}
+                                </Link>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            ))}
+            
+            {/* Logout Button Positioned at the Bottom */}
+            <button className="logout-btn" onClick={onLogout}>
+                Logout
+            </button>
         </div>
     );
 };

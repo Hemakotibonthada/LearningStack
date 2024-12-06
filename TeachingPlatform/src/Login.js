@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
+import './styles.css';
 
 const Login = ({ onLogin }) => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
+    const navigate = useNavigate();  // Hook to programmatically navigate
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -14,33 +17,44 @@ const Login = ({ onLogin }) => {
                 password
             });
 
+            localStorage.setItem('username', username);
             alert(response.data.message);
-            onLogin();  // Redirect user after login
+
+            onLogin();  // Update parent state
+
+            // Redirect to landing page after login
+            navigate('/');
         } catch (err) {
-            alert(err.response?.data?.message || 'Server error');
+            console.error('Login Error:', err.response?.data);
+            alert(err.response?.data?.message || 'Login failed');
         }
     };
 
     return (
-        <form onSubmit={handleSubmit}>
-            <label>Username</label>
-            <input
-                type="text"
-                placeholder="Enter Username"
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
-                required
-            />
-            <label>Password</label>
-            <input
-                type="password"
-                placeholder="Enter Password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                required
-            />
-            <button type="submit">Login</button>
-        </form>
+        <div className="login-container">
+            <form onSubmit={handleSubmit}>
+                <h2>Login</h2>
+                <input
+                    type="text"
+                    placeholder="Username"
+                    value={username}
+                    onChange={(e) => setUsername(e.target.value)}
+                    required
+                />
+                <input
+                    type="password"
+                    placeholder="Password"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    required
+                />
+                <button type="submit">Login</button>
+
+                <p>
+                    Don't have an account? <span onClick={() => navigate('/signup')}>Signup here</span>
+                </p>
+            </form>
+        </div>
     );
 };
 

@@ -1,14 +1,23 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import './styles.css';
 
-const Signup = ({ onSignup }) => {
+const Signup = () => {
     const [username, setUsername] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [confirmPassword, setConfirmPassword] = useState('');
+    const navigate = useNavigate();
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+
+        // Form validation
+        if (!username || !email || !password || !confirmPassword) {
+            alert('Please fill in all fields');
+            return;
+        }
 
         if (password !== confirmPassword) {
             alert('Passwords do not match');
@@ -16,56 +25,61 @@ const Signup = ({ onSignup }) => {
         }
 
         try {
-            console.log('Sending signup request with:', { username, email, password });
+            const user = { username, email, password };
 
-            const response = await axios.post('http://localhost:5000/signup', {
-                username,
-                email,
-                password
-            });
+            // Send signup data to the backend API
+            await axios.post('http://localhost:5000/signup', user);
 
-            console.log('Signup Response:', response.data);
+            // Save user information in localStorage
+            localStorage.setItem('username', JSON.stringify(user));
 
-            alert(response.data.message);
-            onSignup();
-        } catch (err) {
-            console.error('Signup Error:', err.response?.data);
-            alert(err.response?.data?.message || 'Signup failed');
+            alert('Signup successful');
+            navigate('/login');
+        } catch (error) {
+            console.error('Signup Error:', error);
+            alert('Signup failed. Please try again.');
         }
     };
 
     return (
-        <form onSubmit={handleSubmit}>
-            <input
-                type="text"
-                placeholder="Username"
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
-                required
-            />
-            <input
-                type="email"
-                placeholder="Email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-            />
-            <input
-                type="password"
-                placeholder="Password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                required
-            />
-            <input
-                type="password"
-                placeholder="Confirm Password"
-                value={confirmPassword}
-                onChange={(e) => setConfirmPassword(e.target.value)}
-                required
-            />
-            <button type="submit">Signup</button>
-        </form>
+        <div className="signup-container">
+            <form className="signup-form" onSubmit={handleSubmit}>
+                <h2>Signup</h2>
+                <input
+                    type="text"
+                    placeholder="Username"
+                    value={username}
+                    onChange={(e) => setUsername(e.target.value)}
+                    required
+                />
+                <input
+                    type="email"
+                    placeholder="Email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    required
+                />
+                <input
+                    type="password"
+                    placeholder="Password"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    required
+                />
+                <input
+                    type="password"
+                    placeholder="Confirm Password"
+                    value={confirmPassword}
+                    onChange={(e) => setConfirmPassword(e.target.value)}
+                    required
+                />
+                <button type="submit">Signup</button>
+
+                <p>
+                    Already have an account? <span onClick={() => navigate('/login')}>Login here</span>
+                </p>
+            </form>
+        </div>
     );
 };
 

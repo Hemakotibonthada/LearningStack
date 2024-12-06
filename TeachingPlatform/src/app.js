@@ -1,48 +1,55 @@
-import React, { useState } from 'react';
-import Sidebar from './sidebar';
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import Sidebar from './Sidebar';
 import VideoPlayer from './VideoPlayer';
-import Login from './Login';
 import Signup from './Signup';
+import Login from './Login';
 import './styles.css';
 
-const App = ({ courses }) => {
-    const [selectedVideo, setSelectedVideo] = useState('');
-    const [isLoggedIn, setIsLoggedIn] = useState(false);
-    const [isSignup, setIsSignup] = useState(true);
+const App = () => {
+    const [isLoggedIn, setIsLoggedIn] = useState(localStorage.getItem('username') !== null);
 
-    const handleLogin = () => {
-        setIsLoggedIn(true);
+    const courses = {
+        "Module 1": ["video1.mp4", "video2.mp4"],
+        "Module 2": ["video3.mp4", "video4.mp4"],
     };
 
-    const handleSignup = () => {
-        setIsSignup(false);
+    const handleLogout = () => {
+        localStorage.removeItem('username');
+        setIsLoggedIn(false);
+        alert('Logged out successfully');
     };
 
-    const handleSwitchToSignup = () => {
-        setIsSignup(true);
-    };
-
-    const handleVideoSelect = (video) => {
-        setSelectedVideo(video);
-    };
+    useEffect(() => {
+        const storedUser = localStorage.getItem('username');
+        if (storedUser) {
+            setIsLoggedIn(true);
+        }
+    }, []);
 
     return (
-        <div id="root">
-            {isLoggedIn ? (
-                <>
-                    <div id="sidebar">
-                        <Sidebar courses={courses} onVideoSelect={handleVideoSelect} />
-                    </div>
-                    <div id="content">
-                        <VideoPlayer videoPath={selectedVideo} />
-                    </div>
-                </>
-            ) : isSignup ? (
-                <Signup onSignup={handleSignup} onSwitchToLogin={handleSwitchToSignup} />
-            ) : (
-                <Login onLogin={handleLogin} />
-            )}
-        </div>
+        <Router>
+            <Routes>
+                <Route
+                    path="/"
+                    element={
+                        isLoggedIn ? (
+                            <div className="main-content">
+                                <Sidebar courses={courses} onLogout={handleLogout} />
+                                <div className="video-container">
+                                    <VideoPlayer />
+                                </div>
+                            </div>
+                        ) : (
+                            <Navigate to="/login" replace />
+                        )
+                    }
+                />
+                <Route path="/signup" element={<Signup />} />
+                <Route path="/login" element={<Login onLogin={() => setIsLoggedIn(true)} />} />
+                <Route path="*" element={<Navigate to="/login" replace />} />
+            </Routes>
+        </Router>
     );
 };
 
