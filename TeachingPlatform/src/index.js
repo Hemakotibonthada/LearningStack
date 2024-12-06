@@ -10,3 +10,4 @@ const courses = {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App courses={courses} />);
+  

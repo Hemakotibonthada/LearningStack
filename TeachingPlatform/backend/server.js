@@ -7,8 +7,11 @@ const app = express();
 const PORT = 5000;
 const USERS_FILE = './backend/users.json';
 
+app.use(express.json());
 app.use(bodyParser.json());
 app.use(cors());
+
+
 
 // Helper function to read users from JSON
 const getUsers = () => {
@@ -83,4 +86,32 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 
+// Backend - server.js or profile.js
+
+// Sample user database (use MongoDB in production)
+const users = [
+    {
+      id: "1",
+      name: "John Doe",
+      email: "johndoe@example.com",
+      education: "Bachelor of Science in Computer Science",
+      location: "San Francisco, CA",
+      skills: ["JavaScript", "React", "Node.js"],
+      experience: "5 years of experience as a Full Stack Developer",
+      profileImage: "https://example.com/image.jpg",
+    },
+  ];
+  
+  app.get('/api/profile/:id', (req, res) => {
+    const userId = req.params.id;
+    const user = users.find(user => user.id === userId);
+  
+    if (user) {
+      res.status(200).json(user);
+    } else {
+      res.status(404).json({ message: "User not found" });
+    }
+  });
+
+  
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

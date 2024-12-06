@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import Sidebar from './Sidebar';
 import VideoPlayer from './VideoPlayer';
 import Signup from './Signup';
 import Login from './Login';
+import Profile from "./Profile";
 import './styles.css';
 
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
     return (
         <Router>
             <Routes>
+                {/* Main Route */}
                 <Route
                     path="/"
                     element={
@@ -45,8 +47,15 @@ const App = () => {
                         )
                     }
                 />
+                
+                {/* Authentication Routes */}
                 <Route path="/signup" element={<Signup />} />
                 <Route path="/login" element={<Login onLogin={() => setIsLoggedIn(true)} />} />
+
+                {/* Teaching Platform Routes */}
+                <Route path="/" element={<h2>Welcome to Teaching Platform</h2>} />
+                <Route path="/profile/:id" element={<Profile userId="1" />} />
+                <Route path="/videos" element={<VideoPlayer />} />
                 <Route path="*" element={<Navigate to="/login" replace />} />
             </Routes>
         </Router>
