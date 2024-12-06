@@ -3,7 +3,7 @@ import React from 'react';
 const Sidebar = ({ courses, onVideoSelect }) => {
     return (
         <div>
-            <h2>Courses</h2>
+            <h2>Course Modules</h2>
             <ul>
                 {Object.entries(courses).map(([module, videos]) => (
                     <li key={module}>
@@ -12,7 +12,7 @@ const Sidebar = ({ courses, onVideoSelect }) => {
                             {videos.map((video, index) => (
                                 <li key={index}>
                                     <a href="#" onClick={() => onVideoSelect(video)}>
-                                        {video.split('/').pop()}
+                                        {video.split('/').pop().replace(".mp4", "")}
                                     </a>
                                 </li>
                             ))}

@@ -1,10 +1,26 @@
 import React, { useState } from 'react';
 import Sidebar from './sidebar';
 import VideoPlayer from './VideoPlayer';
+import Login from './Login';
+import Signup from './Signup';
 import './styles.css';
 
 const App = ({ courses }) => {
-    const [selectedVideo, setSelectedVideo] = useState("");
+    const [selectedVideo, setSelectedVideo] = useState('');
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
+    const [isSignup, setIsSignup] = useState(true);
+
+    const handleLogin = () => {
+        setIsLoggedIn(true);
+    };
+
+    const handleSignup = () => {
+        setIsSignup(false);
+    };
+
+    const handleSwitchToSignup = () => {
+        setIsSignup(true);
+    };
 
     const handleVideoSelect = (video) => {
         setSelectedVideo(video);
@@ -12,12 +28,20 @@ const App = ({ courses }) => {
 
     return (
         <div id="root">
-            <div id="sidebar">
-                <Sidebar courses={courses} onVideoSelect={handleVideoSelect} />
-            </div>
-            <div id="content">
-                <VideoPlayer videoPath={selectedVideo} />
-            </div>
+            {isLoggedIn ? (
+                <>
+                    <div id="sidebar">
+                        <Sidebar courses={courses} onVideoSelect={handleVideoSelect} />
+                    </div>
+                    <div id="content">
+                        <VideoPlayer videoPath={selectedVideo} />
+                    </div>
+                </>
+            ) : isSignup ? (
+                <Signup onSignup={handleSignup} onSwitchToLogin={handleSwitchToSignup} />
+            ) : (
+                <Login onLogin={handleLogin} />
+            )}
         </div>
     );
 };
