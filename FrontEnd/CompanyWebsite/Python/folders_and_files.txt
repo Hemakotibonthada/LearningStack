@@ -1,0 +1,983 @@
+Folder: /Users/hema/Desktop/Delta
+  File: .DS_Store
+
+Folder: /Users/hema/Desktop/Delta/39.MongoDB (Part 1)
+
+Folder: /Users/hema/Desktop/Delta/39.MongoDB (Part 1)/38_ MongoDB (Part 1) - @Violet_Dimension_delta_batch
+  File: .getxfer.10956.7.mega
+  File: 02. How we store data_ (BSON).mp4
+  File: 07. Query Operators.mp4
+  File: 00. Topic List.jpg
+  File: 08. UPDATE in DB.mp4
+  File: 09. Nesting.mp4
+  File: 05. INSERT in DB (InsertMany).mp4
+  File: 03. Document & Collection.mp4
+  File: 04. INSERT in DB (InsertOne).mp4
+  File: 00.  [ Date - (11_Sept_23) ].txt
+  File: 01. The Mongo Shell.mp4
+  File: 06. FIND in DB.mp4
+  File: 10. DELETE in DB.mp4
+
+Folder: /Users/hema/Desktop/Delta/46. Project - Phase 1 (Part c)
+
+Folder: /Users/hema/Desktop/Delta/46. Project - Phase 1 (Part c)/Day - 45 (03_10_22)
+
+Folder: /Users/hema/Desktop/Delta/46. Project - Phase 1 (Part c)/Day - 45 (03_10_22)/51. Project - Phase 1 (Part c)
+  File: 02. Success & Failure Text.mp4
+  File: Very Important PDF.pdf
+  File: 04. Add wrapAsync.mp4
+  File: 0. Topic List.jpg
+  File: 07. Validation for Schema.mp4
+  File: 06. Error.ejs.mp4
+  File: 03. Custom Error Handling.mp4
+  File: 01. Client-Side Validation (Form).mp4
+  File: 05. Add ExpressError.mp4
+  File: 08. Validation for Schema (Middleware).mp4
+
+Folder: /Users/hema/Desktop/Delta/29. Terminal
+  File: 01. What is the Terminal_.mp4
+  File: 08. What are Flags_.mp4
+  File: 04. Basic Commands.mp4
+  File: 10. Deleting Files & Folders.mp4
+  File: 0. Topic List.jpg
+  File: 02. Different Terms related to Terminal.mp4
+  File: 03. (Window Users Only) Installing Git Bash.mp4
+  File: 05. Navigation Commands.mp4
+  File: 06. Paths in Navigation.mp4
+  File: 07. Making Directories.mp4
+  File: 09. Touch Command.mp4
+
+Folder: /Users/hema/Desktop/Delta/38.Backend 5(Node With SQL)
+  File: 03. Using SQL from CLI.mp4
+  File: 02. MySQL Package.mp4
+  File: 05. INSERT INTO user.mp4
+  File: 00. Topic List.jpg
+  File: 01. Using Faker.mp4
+  File: 09. Add Template.mp4
+  File: 11. Edit Route.mp4
+  File: 12. Update Route.mp4
+  File: 06. Insert in Bulk.mp4
+  File: 10. Show Route.mp4
+  File: 00.  [ Date - (05_Sept_23) ].txt
+  File: 08. Home Route.mp4
+  File: 04. CREATE Table user.mp4
+  File: 07. Routing.mp4
+
+Folder: /Users/hema/Desktop/Delta/05.HTML(Level - 2)
+
+Folder: /Users/hema/Desktop/Delta/05.HTML(Level - 2)/05. HTML (Level - 2)
+  File: 03. Span Element.mp4
+  File: 01. Inline vs Block.mp4
+  File: HTML Level 2 (Ans).pdf
+  File: 05. Sup & Sub Tags.mp4
+  File: 09. Practice Qs.mp4
+  File: 06. Practice Qs.mp4
+  File: 10. HTML Entities.mp4
+  File: 11. Practice Qs.mp4
+  File: 04. Hr Tag.mp4
+  File: 02. Div Element.mp4
+  File: 07. Semantic Markup.mp4
+  File: 13. Further Understanding HTML.mp4
+  File: 08. Semantic Tags.mp4
+  File: HTML Level 2 (Qs).pdf
+  File: 12. Emmets.mp4
+
+Folder: /Users/hema/Desktop/Delta/54. Project - Phase 3 (Part b)
+  File: 04. Our First Map.mp4
+  File: 02. Image Preview for Edit Page.mp4
+  File: 05. Geocoding.mp4
+  File: 03. Getting Started with Maps.mp4
+  File: 08. Map Popup.mp4
+  File: 0. Topic List.jpg
+  File: 07. Map Marker.mp4
+  File: 06. Storing Coordinates.mp4
+  File: 01. Edit Listing Image.mp4
+
+Folder: /Users/hema/Desktop/Delta/22. JavaScript (Part - 7)
+  File: 08. Practice Qs.mp4
+  File: 10. JS Part 7 (Ans).pdf
+  File: 04. Implicit Return in Arrow Functions.mp4
+  File: 05. Set TimeOut Function.mp4
+  File: 09. JS Part 7 (Qs).pdf
+  File: 02. Try & Catch.mp4
+  File: 01. _this_ in JavaScript.mp4
+  File: 0. Topic List.jpg
+  File: 07. this with Arrow Functions.mp4
+  File: 06. Set Interval Function.mp4
+  File: 03. Arrow Functions.mp4
+
+Folder: /Users/hema/Desktop/Delta/10. CSS Part - 4
+  File: 10. Position Property.mp4
+  File: 06. Transform - Skew.mp4
+  File: 05. Transform - Translate.mp4
+  File: 09. Card Hover Effect.mp4
+  File: 13. CSS Part 4 (Ans).pdf
+  File: 04. Tranform - Scale.mp4
+  File: 01. Alpha & Opacity.mp4
+  File: 12. CSS Part4 (Qs) (1).pdf
+  File: 02. Transitions in CSS.mp4
+  File: 11. Simple Smiley Face.mp4
+  File: 07. Box Shadow.mp4
+  File: 08. Background Image.mp4
+  File: 03. Transform - Rotate.mp4
+
+Folder: /Users/hema/Desktop/Delta/03. HTML (Level 1) - Part A
+  File: 3. Hello World.mp4
+  File: 4. Paragraph Element.mp4
+  File: 5. Heading Elements.mp4
+  File: 1. Introduction to HTML.mp4
+  File: 6. Practice Qs.mp4
+  File: 2. HTML Elements & Tags.mp4
+  File: 7. Boilerplate Code.mp4
+
+Folder: /Users/hema/Desktop/Delta/27.javascript(12)
+  File: 08. API Testing Tools.mp4
+  File: 07. Accessing JSON data.mp4
+  File: 12. Adding Information in URLs.mp4
+  File: 02. await Keyword.mp4
+  File: 11. Status Codes.mp4
+  File: 01. async Functions.mp4
+  File: 15. Using Fetch with async-await.mp4
+  File: 13. Https Headers.mp4
+  File: 03. Handing Rejections.mp4
+  File: 04. What is an API_.mp4
+  File: 06. What is JSON_.mp4
+  File: 09. What is Ajax_.mp4
+  File: 14. Our First API request.mp4
+  File: 05. Accessing some APIs.mp4
+  File: 00.  [ Date - (06_Aug_23) ].txt
+  File: 10. Https Verbs.mp4
+
+Folder: /Users/hema/Desktop/Delta/04. HTML (Level 1) - Part B
+  File: 6. More HTML Tags.mp4
+  File: 11.Assignment Solutions.pdf
+  File: 2. Attributes in HTML.mp4
+  File: 9. Practice Qs.mp4
+  File: 7. Comments in HTML.mp4
+  File: 3. Anchor Element.mp4
+  File: 8. Is HTML Case Sensitive.mp4
+  File: 5. Practice Qs.mp4
+  File: 4. Image Element.mp4
+  File: 10.Assignment Questions.pdf
+  File: 1. Lists in HTML.mp4
+
+Folder: /Users/hema/Desktop/Delta/59. React (Part 3)
+  File: 01. Handling Click Events.mp4
+  File: 07. Activity _ Create LikeButton.mp4
+  File: 10. Callback in Set State Function.mp4
+  File: 09. Re-render _ How does it work_.mp4
+  File: 11. More about State.mp4
+  File: 03. Event Object.mp4
+  File: 06. useState( ).mp4
+  File: 0. Topic List.png
+  File: 08. Closure in JS.mp4
+  File: 04. State in React.mp4
+  File: 02. Handling Non-Click Events.mp4
+  File: 05. Hooks.mp4
+
+Folder: /Users/hema/Desktop/Delta/07_Bonus Session - 02
+  File: Bonus Session 2 (CSS MCQs).mp4
+
+Folder: /Users/hema/Desktop/Delta/24. JavaScript (Part 9)
+  File: 17. Assignment Questions.pdf
+  File: 02. What is DOM.mp4
+  File: 13. Navigation on Page.mp4
+  File: 16. Practice Qs.mp4
+  File: 01. Introduction.mp4
+  File: 15. Removing Elements from Page.mp4
+  File: 14. Adding Elements on Page.mp4
+  File: 0. Topic List.jpg
+  File: 06. Selecting Elements by Class Name .mp4
+  File: 03. Download Starter Code.mp4
+  File: 09. Setting Content in Objects.mp4
+  File: 11. Manipulating Style (with style attribute).mp4
+  File: 04. Link For Download.pdf
+  File: 18. Assignment Solutions.pdf
+  File: 05. Selecting Element by ID .mp4
+  File: 10. Manipulating Attributes.mp4
+  File: 08. Query Selectors.mp4
+  File: 07. Selecting Elements by Tag Name.mp4
+  File: 12. classList Property.mp4
+
+Folder: /Users/hema/Desktop/Delta/37.SQL (part2)
+  File: 03. Frequently Used Operators.mp4
+  File: 08. Having Clause.mp4
+  File: 07. Group By Clause.mp4
+  File: 04. Limit Clause.mp4
+  File: 00. Topic List.jpg
+  File: 01. Where Clause.mp4
+  File: 10. UPDATE Table.mp4
+  File: 06. Aggregate Functions.mp4
+  File: 02. Operators in Where.mp4
+  File: 00.  [ Date - (03_Sept_23) ].txt
+  File: 14. Practice Qs1.mp4
+  File: 15. Practice Qs2.mp4
+  File: 05. Order By Clause.mp4
+  File: 11. DELETE Table.mp4
+  File: 12. ALTER Table.mp4
+  File: 09. General Order.mp4
+  File: 13. TRUNCATE Table.mp4
+
+Folder: /Users/hema/Desktop/Delta/30. Git & Github
+  File: 18. Fixing Mistakes.mp4
+  File: 19. What is Forking_.mp4
+  File: 16. Pull command.mp4
+  File: 04. Configuring Git.mp4
+  File: 02. Creating a Github Account.mp4
+  File: 0. Topic List.jpg
+  File: 12. Workflow.mp4
+  File: 17. Merge Conflicts.mp4
+  File: 09. Push command.mp4
+  File: 15. Merging Branches.mp4
+  File: 03. Using Github.mp4
+  File: 07. Status command.mp4
+  File: 10. Init Command.mp4
+  File: 14. Branch Commands.mp4
+  File: 13. Git branches.mp4
+  File: 05. Git with VSCode.mp4
+  File: 08. Add & Commit Commands.mp4
+  File: 06. Clone command.mp4
+  File: 11. Pushing Local repo.mp4
+  File: 01. What is Git & Github_.mp4
+
+Folder: /Users/hema/Desktop/Delta/63. React (Mini - Project)
+  File: 01. Material UI.mp4
+  File: 02. Building Search Box.mp4
+  File: 0. Topic List.jpg
+  File: 05. Weather App Component.mp4
+  File: 03. Using Weather API.mp4
+  File: 04. Building Info Box.mp4
+  File: 06. Added Feature.mp4
+
+Folder: /Users/hema/Desktop/Delta/48. Project - Phase 2 (Part a)
+  File: 09. Deleting Reviews.mp4
+  File: 04. Create Reviews (Step 1).mp4
+  File: 06. Validation for Reviews.mp4
+  File: 02. Mongoose Middlewares.mp4
+  File: 03. Creating Review Model.mp4
+  File: 05. Create Reviews (Step 2).mp4
+  File: Very Important PDF.pdf
+  File: 0. Topic List.jpg
+  File: 01. Handling Deletion.mp4
+  File: 10. Handling _ Delete Listing.mp4
+  File: 07. Render Reviews.mp4
+  File: 08. Styling Reviews.mp4
+
+Folder: /Users/hema/Desktop/Delta/56. Project - Phase 3 (Part d)
+  File: 04. Push code to Github.mp4
+  File: 06. Create New Service.mp4
+  File: 02. Mongo Session Store.mp4
+  File: 05. Connect Render with Github.mp4
+  File: 03. Deployment with Render.mp4
+  File: 0. Topic List.png
+  File: 01. Using Mongo Atlas.mp4
+
+Folder: /Users/hema/Desktop/Delta/23. JavaScript  (Part - 8)
+  File: 01. Array Methods.mp4
+  File: 10. Spread (Object Literals).mp4
+  File: 02. Map & Filter.mp4
+  File: 06. Practice Qs.mp4
+  File: 04. Reduce Method.mp4
+  File: 0. Topic List.jpg
+  File: 11. Rest.mp4
+  File: 13. Destructuring (Objects).mp4
+  File: 03. Every & Sum.mp4
+  File: 09. Spread (Array Literals).mp4
+  File: 05. Maximum in Array.mp4
+  File: 12. Destructuring.mp4
+  File: 07. Default Parameters.mp4
+  File: 14. JS Part 8 (Qs).pdf
+  File: 15. JS Part 8 (Ans).pdf
+  File: 08. Spread.mp4
+
+Folder: /Users/hema/Desktop/Delta/61. React (Part 5)
+  File: 06. Ticket Component.mp4
+  File: 07. Lottery Component.mp4
+  File: 04. Changes to Lottery Game.mp4
+  File: 01. Todo Solution - Mark as Done Feature.mp4
+  File: 02. Lottery Game (Part a).mp4
+  File: Very Important PDF.pdf
+  File: 0. Topic List.jpg
+  File: 08. Functions as Props.mp4
+  File: 03. Lottery Game (Part b).mp4
+  File: 05. Component Types.mp4
+
+Folder: /Users/hema/Desktop/Delta/32.Express
+  File: 05. Routing.mp4
+  File: 03. Handling requests.mp4
+  File: 00. Topic List.jpg
+  File: 01. What is Express_.mp4
+  File: 08. Query Strings.mp4
+  File: 06. Installing Nodemon.mp4
+  File: 02. Getting started with Express.mp4
+  File: 00.  [ Date - (21_Aug_23) ].txt
+  File: 04. Sending a Response.mp4
+  File: 07. Path Parameters.mp4
+
+Folder: /Users/hema/Desktop/Delta/12. CSS Part - 6
+  File: 14. CSS Part6 (Qs).pdf
+  File: 08. Grid Properties.mp4
+  File: 01. What is Grid_.mp4
+  File: 02. Grid Model.mp4
+  File: 03. Grid Template.mp4
+  File: 11. Pet Adoption Page.mp4
+  File: 11. Download Starter HTML.pdf
+  File: 13. z-index.mp4
+  File: 06. Grid Columns.mp4
+  File: 15. CSS Part 6 (Ans).pdf
+  File: 07. Grid Rows.mp4
+  File: 04. Grid Template (repeat).mp4
+  File: 05. Grid Gaps.mp4
+  File: 10. Media Queries (Orientation).mp4
+
+Folder: /Users/hema/Desktop/Delta/07. CSS - Getting Started
+  File: 14. Font Family.mp4
+  File: 8. Hex Codes.mp4
+  File: 9. Practice Qs.mp4
+  File: 5. Background Color Property.mp4
+  File: 10. Text Align Property.mp4
+  File: 6. Practice Qs.mp4
+  File: 12. Line Height & Letter Spacing.mp4
+  File: 16. CSS Part1 (Qs) (1)1.pdf
+  File: 2. Basic CSS Format.mp4
+  File: 13. Units in CSS (Pixel).mp4
+  File: our telegram link.txt
+  File: 15. Practice Qs.mp4
+  File: 11. Font Weight & Text Decoration.mp4
+  File: 4 Color Property.mp4
+  File: 1. What is CSS.mp4
+  File: 7. Color Systems (Name & RGB).mp4
+  File: 17. CSS Part 1 (Ans).pdf
+  File: 3. Including CSS.mp4
+
+Folder: /Users/hema/Desktop/Delta/31. Node.js
+  File: 13. import modules.mp4
+  File: 1. Topic List.jpg
+  File: 10. Installing Packages.mp4
+  File: 05. Node Files.mp4
+  File: 06. Process in Node.mp4
+  File: 04. Node REPL.mp4
+  File: 03. Node Installation.pdf
+  File: 12. Local v_s Global Installation.mp4
+  File: 11. package.json.mp4
+  File: 09. What is npm-.mp4
+  File: 02. Node Installation.mp4
+  File: 07. What is node.js-.mp4
+  File: 08. Export in Directories.mp4
+
+Folder: /Users/hema/Desktop/Delta/35. Backend 4 (REST)
+  File: 09. Update Route.mp4
+  File: 08. Creating Ids (UUID).mp4
+  File: 03. Creating RESTful APIs.mp4
+  File: 10. Edit Route.mp4
+  File: 04. Index Route.mp4
+  File: 0. Topic List.jpg
+  File: 01. What is REST_.mp4
+  File: 11. Destroy Route.mp4
+  File: 06. Redirect.mp4
+  File: 02. CRUD Operations.mp4
+  File: 05. Create & New Route.mp4
+  File: 07. Show Route.mp4
+
+Folder: /Users/hema/Desktop/Delta/19. JavaScript (Part - 4)     [ Date - (15_July_23) ]
+  File: 06. Print Multiplication Table.mp4
+  File: 12. Loops with Nested Arrays.mp4
+  File: 17. JS Part 4 (Ans).pdf
+  File: 08. while Loops.mp4
+  File: 01. for Loops.mp4
+  File: 07. Nested for Loop.mp4
+  File: 15. Todo App (only JS).mp4
+  File: 09. Favorite Movie.mp4
+  File: 05. Infinite Loops.mp4
+  File: 14. Nested for-of Loop.mp4
+  File: 11. Loops with Arrays.mp4
+  File: 03. Print Odd Numbers.mp4
+  File: 10. break Keyword.mp4
+  File: 16. JS Part 4 (Qs).pdf
+  File: 13. for-of Loops.mp4
+  File: 00. List.jpg
+  File: 04. Print Even Numbers.mp4
+  File: 02. Dry Run.mp4
+
+Folder: /Users/hema/Desktop/Delta/19. JavaScript (Part - 4)     [ Date - (15_July_23) ]/19. JavaScript (Part - 4)     [ Date - (15_July_23) ]
+  File: 06. Print Multiplication Table.mp4
+  File: 12. Loops with Nested Arrays.mp4
+  File: 17. JS Part 4 (Ans).pdf
+  File: 08. while Loops.mp4
+  File: 01. for Loops.mp4
+  File: 07. Nested for Loop.mp4
+  File: 15. Todo App (only JS).mp4
+  File: 09. Favorite Movie.mp4
+  File: 05. Infinite Loops.mp4
+  File: 14. Nested for-of Loop.mp4
+  File: 11. Loops with Arrays.mp4
+  File: 03. Print Odd Numbers.mp4
+  File: 10. break Keyword.mp4
+  File: 16. JS Part 4 (Qs).pdf
+  File: 13. for-of Loops.mp4
+  File: 00. List.jpg
+  File: 04. Print Even Numbers.mp4
+  File: 02. Dry Run.mp4
+
+Folder: /Users/hema/Desktop/Delta/33.Backend 3 (Node_EJS)
+  File: 10. Includes.mp4
+  File: 09. Instagram Page with EJS.mp4
+  File: 01. What is Templating_.mp4
+  File: 11. Serving Static Files.mp4
+  File: 06. Instagram EJS.mp4
+  File: 00. Topic List.jpg
+  File: 07. Conditional Statements.mp4
+  File: 05. Passing data to EJS.mp4
+  File: 04. Interpolation Syntax.mp4
+  File: 00.  [ Date - (23_Aug_23) ].txt
+  File: 02. Using EJS.mp4
+  File: 09. Git Cheatsheet.pdf
+  File: 03. Views Directory.mp4
+  File: 08. Loops.mp4
+
+Folder: /Users/hema/Desktop/Delta/09. CSS Part - 3
+  File: 08. Practice Qs.mp4
+  File: 13. Em & Rem in Units.mp4
+  File: 15. CSS Part 3 (Solution).pdf
+  File: 05. Border Radius.mp4
+  File: 11. Inline-Block.mp4
+  File: 04. Border.mp4
+  File: 02. Box Model.mp4
+  File: 06. Padding Property.mp4
+  File: 09. Display Property.mp4
+  File: 12. Relative Units (Percentage).mp4
+  File: 01. Download Starter HTML.pdf
+  File: 14. CSS Part3 (Qs).pdf
+  File: 03. Height & Width.mp4
+  File: 10.Conclusion (Inline & Block).pdf
+  File: 07. Margin Property.mp4
+
+Folder: /Users/hema/Desktop/Delta/36.starting with SQL
+  File: 10. CREATE Table.mp4
+  File: 06. (For Mac) Installation.mp4
+  File: 00. Topic List.jpg
+  File: 07. Our First Database.mp4
+  File: 15. SELECT Command.mp4
+  File: 14. INSERT into Table.mp4
+  File: 05. (For Windows) Installation.mp4
+  File: 13. Primary & Foreign Keys.mp4
+  File: 11. What are Constraints_.mp4
+  File: 01. What is a Database_.mp4
+  File: 02. SQL v_s NoSQL.mp4
+  File: 08. Our First Table.mp4
+  File: 04. What is a Table_.mp4
+  File: 09. Database Queries.mp4
+  File: 12. Key Constraints.mp4
+  File: 03. What is SQL_.mp4
+  File: 00.  [ Date - (01_Sept_23) ].txt
+
+Folder: /Users/hema/Desktop/Delta/40. MongoDB (Part 2)
+  File: 08. Update in Mongoose.mp4
+  File: 05. Insert in Mongoose.mp4
+  File: 06. Insert Multiple.mp4
+  File: 01. What is mongoose-.mp4
+  File: 10. Delete in Mongoose.mp4
+  File: 12. SchemaType Options.mp4
+  File: 07. Find in Mongoose.mp4
+  File: 0. Topic List.jpg
+  File: 04. Models.mp4
+  File: 03. Schema.mp4
+  File: 13. Validation in Updation & Errors.mp4
+  File: 11. Schema Validations.mp4
+  File: 02. Installation & Setup.mp4
+  File: 09. FindAndUpdate.mp4
+
+Folder: /Users/hema/Desktop/Delta/41. MongoDB with Express
+  File: 09. Update Route.mp4
+  File: 04. Index Route.mp4
+  File: 08. Edit Route.mp4
+  File: 02. Creating our Model (Chat).mp4
+  File: 0. Topic List.jpg
+  File: 10. Destroy Route.mp4
+  File: 03. Initialize Database.mp4
+  File: 07. Using Date.mp4
+  File: 05. New Route.mp4
+  File: 06. Create Route.mp4
+  File: 01. Basic Set Up.mp4
+
+Folder: /Users/hema/Desktop/Delta/49. Project - Phase 2 (Part b)
+  File: .getxfer.10041.27.mega
+  File: 05. Web Cookies.mp4
+  File: 07. Cookie Parser.mp4
+  File: 01. What is Express Router_.mp4
+  File: 04. Restructuring Reviews.mp4
+  File: 0. Topic List.jpg
+  File: 02. Using Express Router.mp4
+  File: 03. Restructuring Listings.mp4
+  File: 06. Sending Cookies.mp4
+
+Folder: /Users/hema/Desktop/Delta/45. Backend 7 (Errors)
+  File: Very Important PDF.pdf
+
+Folder: /Users/hema/Desktop/Delta/45. Backend 7 (Errors)/50. Backend 7 (Errors)
+  File: 03. Default Status & Message.mp4
+  File: 04. Activity.mp4
+  File: 07. Using wrapAsync.mp4
+  File: 02. Custom Error Class.mp4
+  File: 01. Error Handling Middleware.mp4
+  File: 0. Topic List.jpg
+  File: 08. Mongoose Errors.mp4
+  File: 06. Using try-catch.mp4
+  File: 05. Handling Async Errors.mp4
+
+Folder: /Users/hema/Desktop/Delta/52.Major Project - Phase 2  (Part e)
+  File: 03. Add Styling.mp4
+  File: 06. Listing Owner.mp4
+  File: 05. post-Login Page.mp4
+  File: 0. Topic List.jpg
+  File: 10. Authorization for _reviews (part2).mp4
+  File: 09. Authorization for _reviews (part1).mp4
+  File: 04. Login after SignUp.mp4
+  File: 02. LogOut User.mp4
+  File: 07. Starting with Authorization.mp4
+  File: 01. Connecting Login Route.mp4
+  File: 08. Authorization for _listings.mp4
+
+Folder: /Users/hema/Desktop/Delta/26.javaScript(part11)
+  File: 10. Results & Errors in Promises.mp4
+  File: 05. Callback Hell.mp4
+  File: 00.  [ Date - (04_Aug_23) ].txt
+  File: 08. then( ) and catch( ) methods.mp4
+  File: 03. Breakpoints.mp4
+  File: 01. JS Call Stack.mp4
+  File: 04. JS is Single Threaded.mp4
+  File: 11. Refactoring old code.mp4
+  File: 06. Setting up for Promises.mp4
+  File: 02. Visualizing the Call stack.mp4
+  File: 07. Refactoring with Promises.mp4
+  File: 09. Promise chaining.mp4
+
+Folder: /Users/hema/Desktop/Delta/51. Project - Phase 2 (Part d)
+  File: 01. Authentication v_s Authorization.mp4
+  File: 07. Configuring Strategy.mp4
+  File: 11. Login User.mp4
+  File: 08. Demo User.mp4
+  File: 02. How are passwords stored-.mp4
+  File: 06. User Model.mp4
+  File: 03. What is Hashing-.mp4
+  File: 0. Topic List.jpg
+  File: 09. SignUp User - GET.mp4
+  File: 10. SignUp User - POST.mp4
+  File: 04. What is Salting-.mp4
+  File: 05. Passport - Getting started.mp4
+
+Folder: /Users/hema/Desktop/Delta/14.BootStrap
+  File: 08. Navbar (Component).mp4
+  File: 06. Alert (Component) (1).mp4
+  File: 15. Form Layout (1).mp4
+  File: 05. Badge (Component).mp4
+  File: 01. What is Bootstrap_ (1).mp4
+  File: 01. What is Bootstrap_.mp4
+  File: 05. Badge (Component) (1).mp4
+  File: 10. Grid (Layout).mp4
+  File: 07. Button Group (Component).mp4
+  File: 14. Checkbox & Radio in Form.mp4
+  File: 11. Grid (Vertical Alignment).mp4
+  File: 14. Checkbox & Radio in Form (1).mp4
+  File: 08. Navbar (Component) (1).mp4
+  File: 12. Form Controls in Bootstrap.mp4
+  File: 17. Bootstrap (Ans) (1).pdf
+  File: 13. Select in Form.mp4
+  File: 09. Card (Component) (1).mp4
+  File: 15. Form Layout.mp4
+  File: 12. Form Controls in Bootstrap (1).mp4
+  File: 04. Button (Component).mp4
+  File: 07. Button Group (Component) (1).mp4
+  File: 02. Using Bootstrap (1).mp4
+  File: 04. Button (Component) (1).mp4
+  File: 02. Using Bootstrap.mp4
+  File: 16. Bootstrap (Qs).pdf
+  File: 06. Alert (Component).mp4
+  File: 11. Grid (Vertical Alignment) (1).mp4
+  File: 17. Bootstrap (Ans).pdf
+  File: 03. Container (Layout).mp4
+  File: 03. Container (Layout) (1).mp4
+  File: 10. Grid (Layout) (1).mp4
+  File: 09. Card (Component).mp4
+  File: 13. Select in Form (1).mp4
+  File: 16. Bootstrap (Qs) (1).pdf
+
+Folder: /Users/hema/Desktop/Delta/06. HTML (Level - 3)
+  File: 02. Semantics in Tables.mp4
+  File: 11. Checkbox - Input Element.mp4
+  File: 12. Radio - Input Element.mp4
+  File: 09. Name Attribute.mp4
+  File: 16. Practice Qs.mp4
+  File: 14. Range - Input Element.mp4
+  File: 03. Colspan & Rowspan Attributes.mp4
+  File: HTML Level 3 (Ans).pdf
+  File: 05. Forms in HTML.mp4
+  File: 01. Tables in HTML.mp4
+  File: 07. Placeholders & Labels.mp4
+  File: 08. Button Element.mp4
+  File: 13. Select - Input Element.mp4
+  File: 06. Input - Form Element.mp4
+  File: 15. Text Area.mp4
+  File: 10. Practice Qs.mp4
+  File: HTML Level 3 (Qs).pdf
+  File: 04. Practice Qs.mp4
+
+Folder: /Users/hema/Desktop/Delta/08. CSS Part - 2
+  File: 10. Child Combinator.mp4
+  File: 18. Inheritance.mp4
+  File: 08. Descendant Selector.mp4
+  File: 04. Element Selector.mp4
+  File: 07. Practice Qs.mp4
+  File: 02. How to download.mp4
+  File: 15. Cascading & Specificity.mp4
+  File: 11. Attribute Selector.mp4
+  File: 16. Practice Qs.mp4
+  File: 05. Id Selector.mp4
+  File: 12. Practice Qs.mp4
+  File: 09. Sibling Combinator.mp4
+  File: 19. CSS Part2 (Qs).pdf
+  File: 03. Universal Selector.mp4
+  File: 01. Download Starter HTML.pdf
+  File: 13. Pseudo Class.mp4
+  File: 14. Pseudo Element.mp4
+  File: 06. Class Selector.mp4
+  File: 17. !important in CSS.mp4
+  File: 20. CSS Part 2 (Ans).pdf
+
+Folder: /Users/hema/Desktop/Delta/42. Project - Phase 1 (Part a)
+  File: 05. Index Route.mp4
+  File: 06. READ (Show Route).mp4
+  File: 03. Major Project.pdf
+  File: 04 Initialize Database.mp4
+  File: 0. Topic List.jpg
+  File: 07. CREATE (New & Create Route).mp4
+  File: 08. UPDATE (Edit & Update Route).mp4
+  File: 02. Listing Model.mp4
+  File: 09. DELETE (Delete Route).mp4
+  File: 01. Basic Set up.mp4
+
+Folder: /Users/hema/Desktop/Delta/13. Mini Project (CSS)
+  File: 02. Typography.mp4
+  File: 06. Introduction.mp4
+  File: 07. Setting Style.mp4
+  File: 04. Icons.mp4
+  File: 09. Hover Changes.mp4
+  File: 01. Color Theory.mp4
+  File: 05. Download Starter HTML (3).pdf
+  File: 10. Configuring Checkbox.mp4
+  File: 08. Sidebar Menu.mp4
+  File: 03. Google Fonts.mp4
+
+Folder: /Users/hema/Desktop/Delta/13. Mini Project (CSS)/(08_06_23)  Live Session - 01
+  File: Bonus Session 1 (Orientation).mp4
+
+Folder: /Users/hema/Desktop/Delta/13. Mini Project (CSS)/(08_06_23)  Live Session - 01/(08_06_23)  Live Session - 01
+  File: Bonus Session 1 (Orientation).mp4
+
+Folder: /Users/hema/Desktop/Delta/21. JavaScript (Part 6)
+  File: 18. JS Part 6 (Qs).pdf
+  File: 02. Practice Qs1.mp4
+  File: 04. Functions with Arguments.mp4
+  File: 07. return Keyword.mp4
+  File: 10. What is Scope-.mp4
+  File: 17. Methods.mp4
+  File: 16. Higher Order Functions (Returns).mp4
+  File: 0. Topic List.jpg
+  File: 09. Practice Qs 6.mp4
+  File: 19. JS Part 6 (Ans).pdf
+  File: 08. Practice Qs 5.mp4
+  File: 05. Practice Qs 3.mp4
+  File: 06. Practice Qs 4.mp4
+  File: 11. Block Scope.mp4
+  File: 14. Functions Expressions.mp4
+  File: 03. Practice Qs 2.mp4
+  File: 12. Lexical Scope.mp4
+  File: 13. Practice Qs 7.mp4
+  File: 01. What are functions-.mp4
+  File: 15. Higher Order Functions.mp4
+
+Folder: /Users/hema/Desktop/Delta/16. JavaScript (Part - 1) - uploaded by @Green_Dimension_official
+  File: 04. Data Types in JS.mp4
+  File: 10. Assignment Operators.mp4
+  File: 05. Numbers in JS.mp4
+  File: 14. Boolean in JS.mp4
+  File: 09. Practice Qs.mp4
+  File: 16. Practice Qs.mp4
+  File: 01. Introduction.mp4
+  File: 02. Using the Console.mp4
+  File: 15. What is TypeScript_.mp4
+  File: 12. Practice Qs.mp4
+  File: 19. null & undefined in JS.mp4
+  File: 20. Practice Qs.mp4
+  File: 08. Operator Precedence.mp4
+  File: 06. Operations in JS.mp4
+  File: 13. Identifier Rules.mp4
+  File: 07. NaN in JS.mp4
+  File: 03. What is a Variable_.mp4
+  File: 00 lecture SS .jpg
+  File: 18. String Indices.mp4
+  File: 11. Unary Operators.mp4
+  File: 17. String in JS.mp4
+
+Folder: /Users/hema/Desktop/Delta/55. Project - Phase 3 (Part c)
+  File: 02. Add UI for Filters.mp4
+  File: 03. Add UI for Tax Switch.mp4
+  File: 00. Topic List.png
+  File: 05. Add UI for Search.mp4
+  File: 01. Fixing Home Page.mp4
+  File: 04. Making Tax Switch Functional.mp4
+
+Folder: /Users/hema/Desktop/Delta/57. React (Part 1)
+  File: 12. Style Components.mp4
+  File: 04. Understanding our App.mp4
+  File: 08. Writing Markup in JSX.mp4
+  File: 02. What is JSX_.mp4
+  File: 0. Topic List.jpg
+  File: 05. Re-write App.mp4
+  File: 07. Import-Export.mp4
+  File: 06. Our 1st Component.mp4
+  File: 01. What is React_.mp4
+  File: 11. Structuring Components.mp4
+  File: 09. React Fragment.mp4
+  File: 03. Set up Local Environment.mp4
+  File: 10. JSX with Curly Braces.mp4
+
+Folder: /Users/hema/Desktop/Delta/50. Project - Phase 2 (Part c)
+  File: 11. Flash Failure Includes.mp4
+  File: 05. Using connect-flash.mp4
+  File: 07. Implement Sessions in Project.mp4
+  File: 01. What is State_.mp4
+  File: 0. Topic List.jpg
+  File: 03. Exploring Session Options.mp4
+  File: 06. Using res.locals.mp4
+  File: 04. Storing & Using Session Info.mp4
+  File: 08. Cookie in SessionOptions.mp4
+  File: 10. Flash Success Includes.mp4
+  File: 02. Express Sessions.mp4
+  File: 09. Implement Flash in Project.mp4
+
+Folder: /Users/hema/Desktop/Delta/44. Backend 6 (Middlewares)
+
+Folder: /Users/hema/Desktop/Delta/44. Backend 6 (Middlewares)/49. Backend 6 (Middlewares)
+  File: 05. Exploring app.use( ).mp4
+  File: 08. Error Handling (Express Default).mp4
+  File: 02. Our 1st Middleware.mp4
+  File: Very Important PDF.pdf
+  File: 03. Using next( ).mp4
+  File: 0. Topic List.jpg
+  File: 06. API Token as Query String.mp4
+  File: 04. Creating Utility Middleware.mp4
+  File: 07. Passing multiple Middlewares.mp4
+  File: 01. What are Middlewares-.mp4
+
+Folder: /Users/hema/Desktop/Delta/47. Database Relationships
+  File: 04. One to Few (Implementation).mp4
+  File: 07. using Populate.mp4
+  File: 02. SQL Relationships (One to Many & Many to Many).mp4
+  File: 09. Reading Docs.mp4
+  File: 0. Topic List.jpg
+  File: 06. One to Many (Implementation).mp4
+  File: 08. One to Squillions (in Detail).mp4
+  File: 01. SQL Relationships (One to One).mp4
+  File: 05. One to Many (in Detail).mp4
+  File: 03. One to Few (in Detail).mp4
+
+Folder: /Users/hema/Desktop/Delta/58. React (Part 2)
+  File: 03. Rendering Arrays.mp4
+  File: 07. Install React Developer Tools.mp4
+  File: Very Important PDF.pdf
+  File: 0. Topic List.jpg
+  File: 05. Dynamic Component Styling.mp4
+  File: 02. Passing Arrays to Props.mp4
+  File: 04. Conditionals.mp4
+  File: 08. Activity _ Amazon Cards.mp4
+  File: 01. React Props.mp4
+  File: 06. Activity.mp4
+
+Folder: /Users/hema/Desktop/Delta/17. JavaScript (Part - 2) - @Green_Dimension_official
+  File: 16. truthy & falsy.mp4
+  File: 04. Operators in JS.mp4
+  File: 20. JS Part2 (Qs).pdf
+  File: 21. JS Part 2 (Ans).pdf
+  File: 18. Practice Qs.mp4
+  File: 06. Comparison for Non-numbers.mp4
+  File: 02. Linking JS File.mp4
+  File: 13. Nested if-else.mp4
+  File: 09. Practice Qs.mp4
+  File: 14. Logical Operators.mp4
+  File: 01. console.log( ).mp4
+  File: 12. Practice Qs.mp4
+  File: 07. Conditional Statements.mp4
+  File: 03. Template Literals.mp4
+  File: 15. Practice Qs.mp4
+  File: 19. Alerts & Prompts.mp4
+  File: 17. Switch Statement.mp4
+  File: 10. else if Statement.mp4
+  File: 08. if Statement.mp4
+  File: 05. Comparison Operators.mp4
+  File: 00. List.jpg
+  File: 11. else Statement.mp4
+
+Folder: /Users/hema/Desktop/Delta/18. JavaScript (Part - 3) - @Green_Dimension_official
+  File: 24. Nested Arrays.mp4
+  File: 18. Slice in Arrays.mp4
+  File: 12. Creating Arrays.mp4
+  File: 20. Sort in Arrays.mp4
+  File: 07. Slice Method.mp4
+  File: 13. Arrays are Mutable.mp4
+  File: 06. Method Chaining.mp4
+  File: 09. Practice Qs.mp4
+  File: 26. JS Part3 (Qs).pdf
+  File: 14. Array Methods.mp4
+  File: 16. indexOf & includes Method.mp4
+  File: 05. Methods with Arguments - indexOf.mp4
+  File: 03. Strings are Immutable in JS.mp4
+  File: 10. Array (Data Structure).mp4
+  File: 17. Concatenation & Reverse.mp4
+  File: 08. Replace & Repeat Method.mp4
+  File: 19. Splice in Arrays.mp4
+  File: 27. JS Part 3 (Ans).pdf
+  File: 15. Practice Qs.mp4
+  File: 11. Visualizing Arrays.mp4
+  File: 01. String Methods.mp4
+  File: 04. ToUpperCase and ToLowerCase.mp4
+  File: 23. Constant Arrays.mp4
+  File: 21. Practice Qs.mp4
+  File: 00. List.jpg
+  File: 02. Trim Method.mp4
+  File: 25. Practice Qs.mp4
+  File: 22. Arrays References.mp4
+
+Folder: /Users/hema/Desktop/Delta/15 Live Session - 02 - @Green_Dimension_official
+  File: Live Mentorship Session 2 (Resume).mp4
+
+Folder: /Users/hema/Desktop/Delta/60. React (Part 4)
+  File: 01. Objects & State.mp4
+  File: 07. Update One in Array.mp4
+  File: 06. Update All in Array.mp4
+  File: 0. Topic List.jpg
+  File: 05. Deleting from Arrays.mp4
+  File: 02. Arrays & State.mp4
+  File: 03. Activity _ Create a Todo.mp4
+  File: 04. Unique Key for List Items.mp4
+  File: 08. Add a _Mark as Done_ Feature to Todo.mp4
+
+Folder: /Users/hema/Desktop/Delta/01. Day - 01 (07_06_23)
+  File: .DS_Store
+
+Folder: /Users/hema/Desktop/Delta/01. Day - 01 (07_06_23)/01. 02. Curriculum
+  File: 0. Topic List.jpg
+  File: Delta.pdf
+
+Folder: /Users/hema/Desktop/Delta/01. Day - 01 (07_06_23)/04. Introduction
+  File: 02. What is the Internet.mp4
+  File: 03. What is Web Development.mp4
+  File: 01. Welcome to Delta!.mp4
+  File: 0. Topic List.jpg
+  File: 04. What will we learn.mp4
+
+Folder: /Users/hema/Desktop/Delta/01. Day - 01 (07_06_23)/06. HTML (Level 1) - Part A
+  File: 03. Hello World.mp4
+  File: 06. Practice Qs.mp4
+  File: 01. Introduction to HTML.mp4
+  File: 07. Boilerplate Code.mp4
+  File: 0. Topic List.jpg
+  File: 02. HTML Elements & Tags.mp4
+  File: 04. Paragraph Element.mp4
+  File: 05. Heading Elements.mp4
+
+Folder: /Users/hema/Desktop/Delta/01. Day - 01 (07_06_23)/05. Prerequisites
+  File: 0. Topic List.jpg
+  File: 01. Prerequisites.mp4
+  File: 02. Installation Guide.pdf
+
+Folder: /Users/hema/Desktop/Delta/43. Project - Phase 1 (Part b)
+  File: 01. Creating Boilerplate.mp4
+  File: Very Important PDF.pdf
+  File: 07. Styling Show Listing.mp4
+  File: 0. Topic List.jpg
+  File: 05. Styling New Listing.mp4
+  File: 04. Styling Index.mp4
+  File: 03. Footer.mp4
+  File: 06. Styling Edit Listing.mp4
+  File: 02. Navbar.mp4
+
+Folder: /Users/hema/Desktop/Delta/25. JavaScript (Part 10)
+  File: 11. JS Part 10 (Qs).pdf
+  File: 03. Event Listeners.mp4
+  File: 06. this in Event Listeners.mp4
+  File: 04. Activity.mp4
+  File: 05. Event Listeners for Elements.mp4
+  File: 0. Topic List.jpg
+  File: 09. Extracting Form Data.mp4
+  File: 10. More Events.mp4
+  File: 02. Mouse_ Pointer Events.mp4
+  File: 07. Keyboard Events.mp4
+  File: 01. DOM Events.mp4
+  File: 08. Form Events.mp4
+
+Folder: /Users/hema/Desktop/Delta/11. CSS Part - 5
+  File: 02. Display Flex.mp4
+  File: 06. Align Items.mp4
+  File: 08. Align Self.mp4
+  File: 01. What is Flexbox.mp4
+  File: 12. CSS Part 5 (Ans).pdf
+  File: 09. Flex Sizing.mp4
+  File: 05. Flex Wrap.mp4
+  File: 07. Align Content.mp4
+  File: 03. Flex Direction.mp4
+  File: 04. Justify Content.mp4
+  File: 10. Flex Shorthand.mp4
+  File: 11. CSS Part5(Qs).pdf
+
+Folder: /Users/hema/Desktop/Delta/28.JavaScript(13)
+  File: 01. Using Axios.mp4
+  File: 02. DogPictures API.mp4
+  File: 04. Activity using Query Strings.mp4
+  File: 00.  [ Date - (08_Aug_23) ].txt
+  File: 05. Free APIs for Project.pdf
+  File: 03. Sending Headers with API requests.mp4
+
+Folder: /Users/hema/Desktop/Delta/20. JavaScript (Part - 5)     [ Date - (16_July_23) ]
+  File: 09. Math Object.mp4
+  File: 03. Creating a Post.mp4
+  File: 01. Object Literals.mp4
+  File: 12. Guessing Game.mp4
+  File: 08. Array of Objects.mp4
+  File: 07. Nested Objects.mp4
+  File: 02. Creating Object Literals.mp4
+  File: 06. Add _ Update Values.mp4
+  File: 04. Get Values.mp4
+  File: 10. Random Integers.mp4
+  File: 11. Practice Qs.mp4
+  File: 05. Conversion in Get Values.mp4
+  File: 13. JS Part 5 (Qs).pdf
+  File: 14. JS Part 5 (Ans).pdf
+
+Folder: /Users/hema/Desktop/Delta/62. React (Part 6)
+  File: 03. Handling Multiple Inputs.mp4
+  File: 01. Forms in React.mp4
+  File: 06. Dependencies in useEffect( ).mp4
+  File: 07. Use Cases.mp4
+  File: 0. Topic List.jpg
+  File: 05. useEffect( ).mp4
+  File: 04. Comments Form.mp4
+  File: 02. Labels in React.mp4
+
+Folder: /Users/hema/Desktop/Delta/64 Certificate_
+  File: images (1).jpeg
+
+Folder: /Users/hema/Desktop/Delta/53. Major Project - Phase 3 (Part a)
+  File: 04. Router.route.mp4
+  File: 10. Save Link in Mongo.mp4
+  File: 02. MVC for Listings.mp4
+  File: 0. Topic List.jpg
+  File: 01. MVC - Model, View, Controller.mp4
+  File: 08. Cloud Setup.mp4
+  File: 03. MVC for Reviews & Users.mp4
+  File: 05. Re-style Ratings.mp4
+  File: 09. Store Files.mp4
+  File: 07. Manipulating Form.mp4
+  File: 06. Image Upload.mp4
+  File: 11. Display Image.mp4
+
