@@ -1,4 +1,4 @@
-h1{
+/*h1{
     color: #ffa511;
     font-family:League spartan;
     font-weight: 900;
@@ -26,5 +26,11 @@ button{
 }
 div p{
 color:green;
+}*/
+.card{
+    width:200px;
+    height:200px
 }
-
+img{
+    width:100%;
+}
