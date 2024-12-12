@@ -151,9 +151,7 @@ a{
     height: 200px;
     width: 70px;
     border: 10px;
-    border-color: white;
-    border-style: double;
-    border-color: black;
+    border:2px solid black;
     margin: 10px;
 
 }
@@ -174,3 +172,4 @@ a{
 #m{
     background-color: green;
 }
+                         

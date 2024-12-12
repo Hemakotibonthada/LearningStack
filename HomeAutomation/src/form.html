@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <img src="Images/onsite.png" alt="Civil Engineering Logo" class="logo">
+        <h1><b>On-Site Queries</b></h1>
+    </header>
+
+
+
+   <div class="form-container">
+            <form>
+                <h2>Name *</h2>
+                <input type="text" placeholder="Enter your name" required>
+    
+                <h2>Where are you? *</h2>
+                <label for="street-address">Street Address</label>
+                <input type="add" id="street-address" placeholder="Enter your street address">
+    
+                <label for="address-line2">Address Line 2</label>
+                <input class="add" id="address-line2" placeholder="Apartment, suite, etc.">
+    
+                <label for="city">City</label>
+                <input class="add" id="city" placeholder="Enter your city">
+    
+                <label for="state">State/Region/Province</label>
+                <input class="add" id="state" placeholder="Enter your state or region">
+    
+                <label for="zip">Postal / Zip Code</label>
+                <input type="text" id="zip" placeholder="Enter your postal/zip code">
+    
+                <label for="country">Country</label>
+                <select id="country">
+                    <option value="">Select</option>
+                    <option value="us">United States</option>
+                    <option value="in">India</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="au">Australia</option>
+                </select>
+                <h2>What's the progress status? *</h2>
+            <input type="range" min="0" max="100" step="1" id="progress" class="slider">
+            <div class="slider-values">
+                <span>0</span>
+                <span>100</span>
+            </div>
+
+            <h2>Do you need any more materials? *</h2>
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="materials" value="yes" required>
+                    Yes
+                </label>
+                <label>
+                    <input type="radio" name="materials" value="no">
+                    No
+                </label>
+            </div>
+
+         
+            <h2>What more do you need?</h2>
+            <div class="checkbox-group">
+                <label>
+                    <input type="checkbox" name="need" value="sand">
+                    Sand
+                </label>
+                <label>
+                    <input type="checkbox" name="need" value="bricks">
+                    Bricks
+                </label>
+                <label>
+                    <input type="checkbox" name="need" value="rods">
+                    Rods
+                </label>
+                <label>
+                    <input type="checkbox" name="need" value="other">
+                    Other
+                </label>
+            </div>
+
+           
+            <button type="submit">Submit</button>
+
+   
+    
+               
+            </form>
+        </div>
+    </body>
+    </html>
+    
