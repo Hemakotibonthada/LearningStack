@@ -4,7 +4,8 @@ const cors = require('cors');
 const fs = require('fs');
 
 const app = express();
-const PORT = 5000;
+const PORT = 5001;
+
 const USERS_FILE = './backend/users.json';
 
 app.use(express.json());
