@@ -92,6 +92,8 @@
     border-radius: 50%;
 }
 
+
+
 /* Spaced Dots */
 .loader::before {
     animation-delay: 0.5s;

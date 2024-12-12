@@ -30,4 +30,3 @@ const Sidebar = ({ courses, onLogout }) => {
 };
 
 export default Sidebar;
- 

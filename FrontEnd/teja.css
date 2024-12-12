@@ -50,7 +50,7 @@
     color: black;
     
  }
- #Follow Adem{
+ .Adem{
    color: darkgoldenrod;
  }
  #myid p {
@@ -85,6 +85,17 @@
  #green{
 background-color: green;
  }
+ #info{
+   color: red;
+ }
+ h2{
+   color: green;
+ }
+ p{
+   background-color: greenyellow;
+   color: aqua;
+ }
+ 
 
  
 

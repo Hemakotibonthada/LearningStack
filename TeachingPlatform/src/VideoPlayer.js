@@ -18,3 +18,5 @@ const VideoPlayer = ({ videoPath }) => {
 };
 
 export default VideoPlayer;
+
+
