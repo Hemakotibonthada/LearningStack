@@ -27,10 +27,51 @@ button{
 div p{
 color:green;
 }*/
+.IndianTeam{
+    display: flex;
+    height: 100%;
+    width: 98%;
+    margin:0% auto;
+    flex-direction: row;
+}
 .card{
     width:200px;
-    height:200px
+    height: 330px;
+    border: 2px solid red;
+    display: inline-block;
+    margin: auto;
+    background-color: wheat;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px blue;
+    position: 100px;
+    margin-right: 10px;
+    text-align: center;
+   
+
+  
 }
 img{
-    width:100%;
+
+    width:70%;
+ border-radius: 0 0 5px 5px;
+ text-decoration: none;
+
+}
+.desc{
+    padding: 0  2px  0 2px;
+}
+.card:hover{
+    box-shadow:0 8px 16px goldenrod;
+}
+h1{
+    color:magenta;
+    text-align: center;
+    
+}
+p{
+    color: blue;
+}
+body{
+    border-bottom: 20px red;
+    
 }
