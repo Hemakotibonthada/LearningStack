@@ -1,4 +1,4 @@
-/*h1{
+h1{
     color: #ffa511;
     font-family:League spartan;
     font-weight: 900;
@@ -26,52 +26,40 @@ button{
 }
 div p{
 color:green;
-}*/
-.IndianTeam{
-    display: flex;
-    height: 100%;
-    width: 98%;
-    margin:0% auto;
-    flex-direction: row;
 }
-.card{
-    width:200px;
-    height: 330px;
+
+
+.card {
+    width: 400px;
     border: 2px solid red;
-    display: inline-block;
-    margin: auto;
     background-color: wheat;
     border-radius: 5px;
     box-shadow: 0 4px 8px blue;
-    position: 100px;
-    margin-right: 10px;
+}
+.card img {
+    width: 100%; /* Ensure image spans the card's width */
+    border-radius: 5px 5px 0 0;
+}
+.desc {
+    padding: 10px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px goldenrod;
+}
+h1 {
+    color: magenta;
     text-align: center;
-   
+}
+@media screen and (min-width: 200px) {
+    .Indian_Team {
+        flex-direction: row; /* Switch to row layout on larger screens */
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
 
-  
-}
-img{
-
-    width:70%;
- border-radius: 0 0 5px 5px;
- text-decoration: none;
-
-}
-.desc{
-    padding: 0  2px  0 2px;
-}
-.card:hover{
-    box-shadow:0 8px 16px goldenrod;
-}
-h1{
-    color:magenta;
-    text-align: center;
-    
-}
-p{
+p {
     color: blue;
 }
-body{
-    border-bottom: 20px red;
-    
-}
+
+
