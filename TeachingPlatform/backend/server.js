@@ -2,22 +2,31 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const fs = require('fs');
+const path = require('path');
 
 const app = express();
 const PORT = 5001;
 
-const USERS_FILE = './backend/users.json';
+// Path to the users.json file (relative to the script's location)
+const USERS_FILE = path.join(__dirname, 'users.json');
 
+// Middleware
 app.use(express.json());
 app.use(bodyParser.json());
-app.use(cors());
-
-
+app.use(cors({
+    origin: 'http://localhost:3000', // Frontend URL
+    methods: ['POST', 'GET'],
+    credentials: true
+}));
 
 // Helper function to read users from JSON
 const getUsers = () => {
     try {
-        return JSON.parse(fs.readFileSync(USERS_FILE));
+        if (fs.existsSync(USERS_FILE)) {
+            const data = fs.readFileSync(USERS_FILE, 'utf8');
+            return JSON.parse(data);
+        }
+        return [];
     } catch (err) {
         console.error('Error reading users.json:', err);
         return [];
@@ -33,6 +42,8 @@ const saveUsers = (users) => {
     }
 };
 
+// Routes
+
 // Signup Route
 app.post('/signup', (req, res) => {
     const { username, email, password } = req.body;
@@ -47,7 +58,7 @@ app.post('/signup', (req, res) => {
             return res.status(400).json({ message: 'User already exists' });
         }
 
-        const newUser = { username, email, password };
+        const newUser = { id: Date.now().toString(), username, email, password };
         users.push(newUser);
 
         saveUsers(users);
@@ -77,43 +88,31 @@ app.post('/login', (req, res) => {
         res.status(500).json({ message: 'Internal server error' });
     }
 });
-// In server.js
-const corsOptions = {
-    origin: 'http://localhost:3000',
-    methods: ['POST'],
-    credentials: true
-};
 
-app.use(cors(corsOptions));
-
-
-// Backend - server.js or profile.js
-
-// Sample user database (use MongoDB in production)
-const users = [
+// Profile Route
+const profiles = [
     {
-      id: "1",
-      name: "John Doe",
-      email: "johndoe@example.com",
-      education: "Bachelor of Science in Computer Science",
-      location: "San Francisco, CA",
-      skills: ["JavaScript", "React", "Node.js"],
-      experience: "5 years of experience as a Full Stack Developer",
-      profileImage: "https://example.com/image.jpg",
+        id: "1",
+        name: "John Doe",
+        email: "johndoe@example.com",
+        education: "Bachelor of Science in Computer Science",
+        location: "San Francisco, CA",
+        skills: ["JavaScript", "React", "Node.js"],
+        experience: "5 years of experience as a Full Stack Developer",
+        profileImage: "https://example.com/image.jpg",
     },
-  ];
-  
-  app.get('/api/profile/:id', (req, res) => {
+];
+
+app.get('/api/profile/:id', (req, res) => {
     const userId = req.params.id;
-    const user = users.find(user => user.id === userId);
-  
+    const user = profiles.find(user => user.id === userId);
+
     if (user) {
-      res.status(200).json(user);
+        res.status(200).json(user);
     } else {
-      res.status(404).json({ message: "User not found" });
+        res.status(404).json({ message: "User not found" });
     }
-  });
+});
 
-  
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`)); 
-
+// Start the server
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

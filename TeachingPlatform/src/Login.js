@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import "./Login.css";
+import "./styles/Login.css";
 
 const Login = ({ onLogin }) => {
   const [username, setUsername] = useState("");
@@ -15,7 +15,7 @@ const Login = ({ onLogin }) => {
     try {
       setIsLoading(true);  // Start loading animation
 
-      const response = await axios.post("http://localhost:5000/login", {
+      const response = await axios.post("http://localhost:5001/login", {
         username,
         password,
       });

@@ -1,0 +1,157 @@
+/* HomePage styles */
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  .navigate-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Appliances Controller styles */
+  .appliances-controller {
+    padding: 20px;
+    text-align: center;
+  }
+  .add-dashboard-btn {
+    padding: 10px 15px;
+    margin-bottom: 20px;
+  }
+  .dashboard-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .dashboard-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  /* Dashboard Editor styles */
+  .dashboard-editor {
+    padding: 20px;
+  }
+  .widget-buttons button {
+    margin: 5px;
+    padding: 10px 15px;
+  }
+  .dashboard-grid {
+    margin-top: 20px;
+    border: 1px dashed #ccc;
+    padding: 20px;
+    position: relative;
+    height: 400px;
+  }
+  
+  /* Toggle Switch styles */
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 20px;
+  }
+  .switch input {
+    display: none;
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+  }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+  input:checked + .slider {
+    background-color: #2196f3;
+  }
+  input:checked + .slider:before {
+    transform: translateX(14px);
+  }
+  .slider {
+    border-radius: 20px;
+  }
+  
+  /* Gauge Meter styles */
+  .gauge-meter {
+    text-align: center;
+  }
+  .circular-chart {
+    width: 50px;
+    height: 50px;
+  }
+  .circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+  }
+  .circle {
+    fill: none;
+    stroke: #00acc1;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    transition: stroke-dasharray 0.5s;
+  }
+  /* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Specific Component Styles */
+.home-container, .appliances-controller, .dashboard-editor {
+  padding: 20px;
+  text-align: center;
+}
+.navigate-btn, .add-dashboard-btn {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.dashboard-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.dashboard-card {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.dashboard-grid {
+  margin-top: 20px;
+  border: 1px dashed #ccc;
+  padding: 20px;
+  position: relative;
+  height: 400px;
+}
+
+/* Widgets */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: 20px;
+}
+.slider {
+  background-color: #ccc;
+  border-radius: 20px;
+}
+.circular-chart {
+  width: 50px;
+}

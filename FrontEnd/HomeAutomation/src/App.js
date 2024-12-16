@@ -5,7 +5,12 @@ import VideoPlayer from './VideoPlayer';
 import Signup from './Signup';
 import Login from './Login';
 import Profile from "./Profile";
-import './styles/styles.css';
+import './styles.css';
+import Sidebar from './components/Sidebar';
+import VideoPlayer from './components/VideoPlayer';
+import Signup from './components/Signup';
+import Login from './components/Login';
+import Profile from './components/Profile';
 
 
 const App = () => {
