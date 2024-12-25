@@ -172,4 +172,21 @@ a{
 #m{
     background-color: green;
 }
-                         
+    
+#A{
+    height: 300px;
+    width: 90%;
+    background-color: aliceblue;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#A div{
+    height: 100px;
+    width: 300px;
+    color: aqua;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 1.5em;
+}
