@@ -56,7 +56,7 @@ img{
 .card:hover.front{
     transform: rotatey(180DEG);
 }
-.parent{
+.item{
     height: 500px;
     width: 700px;
     display: flex;
@@ -77,6 +77,71 @@ img{
 #c3{
     background-color: burlywood;
 }
+.container{
+    height: 300px;
+    width: 400px;
+    display: flex;
+     
+    
+} 
+.child{
+    
+    width: 300px;
+height: 100px;
+    text-align: center;
+    flex-basis: 15vw;
+    
+}
+#Ho{
+     background-color: slateblue;
+     
+}
+#cat{
+    background-color: slateblue;
+    
+}
+#ca{
+    background-color: turquoise;
+    
+}
+#pr{
+    background-color: turquoise;
+    
+}
+#Maintopic{
+    color: blue;
+}
+*{
+    text-align: center;
+}
+.Heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.color {
+    background-color: cornflowerblue;
+    color: white;
+}
+div button{
+    background-color: purple;
+    color: azure;
+    
+}
+div button:hover{
+background-color: yellow;
+    color: blue;
+}
+p:nth-of-type(2n){
+    color: yellow;
+}
+h1::first-letter{
+    color: red;
+}
+ #yes:checked+label
+ 
+ {
+    color: darkgreen;
+}
+
 
 
    
