@@ -1,0 +1,10 @@
+.container{
+    background-color: aquamarine;
+}
+/* body{
+    background-color: black;
+} */
+ .card:hover{
+    transition: all 0.5s;
+    box-shadow: 10px 4px 8px 10px rgba(13, 234, 135, 0.2);
+ }

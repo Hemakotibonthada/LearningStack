@@ -1,0 +1,127 @@
+#Hithere{
+    color: orange;
+}
+    
+    
+
+
+ div{
+    
+    color: white;
+}
+
+
+
+  divh1{
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size:  55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5x;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-decoration-color: aqua;
+    
+ }
+ #name{color: brown;
+       text-align: center;
+       text-decoration:underline;
+       text-decoration-color: darkgreen;
+
+ }
+  div h2{
+    color:blue ;
+    
+ }
+  span>button{
+    background-color:aqua ;}
+ button {
+    color: black;
+ }
+ /* #ser{ background-color: black;
+       color: white;
+}
+ #search{
+   background-color: black;
+ } */
+ #Adem{
+    color: black;
+    
+ }
+ .Adem{
+   color: darkgoldenrod;
+ }
+ #myid p {
+    color: darkgreen;
+ }
+ #box{
+  height: 200px;
+  width: 200px;
+  border: 2px  pink;
+  border-top: 50px;
+  border: radius 10px;;
+ }
+ #outer{
+  height: 200px;
+  width: 70px;
+  border: 2px solid grey;
+ }
+ .inner{
+  height: 50px;
+  width: 50px;
+  border: 2px solid gray;
+  margin: 10px;
+  border-radius: 50%;
+
+ }
+ #red{
+  background-color: red;
+ }
+ #yellow{
+  background-color: yellow;
+ }
+ #green{
+background-color: green;
+ }
+ #info{
+   color: red;
+ }
+ h2{
+   color: green;
+ }
+ p{
+   background-color: greenyellow;
+   color: aqua;
+ }
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+    
+
+     
+     
+
+
+
+
+

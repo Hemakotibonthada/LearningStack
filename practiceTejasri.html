@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejasri's Practice Page</title>
+    <link rel="stylesheet" href="teja.css">
+</head>
+<body>
+    <table border="black">
+        <caption>A test table with merged cells</caption>
+        <tr>
+            <td></td>
+            <td colspan="2">Average</td>
+            <td rowspan="2">RedEyes</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Height</td>
+            <td>Weight</td>
+        </tr>
+        
+        <tr>
+        <td>Males</td>
+        <td>1.9</td>
+        <td>0.003</td>
+        <td>40%</td>
+        </tr>
+        <tr> 
+            <td>Females</td>
+            <td>1.7</td>
+            <td>0.009</td>
+            <td>60%</td>
+        </tr>
+     </table>
+     <hr>
+    
+
+    <!---fooD menu-->
+
+    <table border="black">
+    <caption>Food Menu</caption>
+    <tr>
+        <td><b>Item</b></td>
+        <td><b>Price</b></td>
+        </tr>
+        <tr>
+        <td>Frooti</td>
+        <td>10
+        
+        </td></tr>
+        <tr>
+        <td>samosa</td>
+        <td>20</td></tr>
+        <tr>
+        <td>Bajji</td>
+        <td>15</td>
+    </tr>
+    </table><hr>
+        <!--Student Marks-->
+<body>
+    <table border="black">
+        <caption>Exam Marks</caption>
+        <thead><tr><th><b>Student</b></th>
+            <th><b>Marks</b></th>
+        </tr></thead>
+       <tbody> <tr>
+            <td>Tanvi</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>maggi</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Ammulu</td>
+            <td>80</td>
+        </tr>
+    </tbody>
+        <tfoot>
+            <td>
+                sum
+            </td>
+            <td>270</td>
+        </tfoot>
+    </table>
+    
+             <!-- using row column span-->
+            <table border="black">
+            <caption>
+            Food Menu
+            </caption>
+            <tr>
+            <th rowspan="2"><b>Item</b></th>
+                                
+                            
+         <th colspan="2">Price</th></tr>
+                            <tr>
+                            <th>InR</th>
+                            <th>USD</th>
+                            </tr>
+                            <tr>
+                                <td>Frooti</td>
+                                <td>10</td>
+                                <td>0.14</td>
+                                 </tr>
+                              <tr>
+                                <td>Mango</td>
+                                <td>15</td>
+                                <td>0.16</td>
+                              </tr>
+                       </table><hr>
+
+
+                       <!--Invoice Table-->
+                       <table border="black">
+                        <caption>Invoice</caption>
+<tr>                        
+                            <th>Item/Desc.</th>
+                            <th>Qty.</th>
+                            <th>@</th>
+                            <th >price </th>
+                        </tr>
+                        <tr>
+                            <td>Paperclips(Box)
+                            </td>
+                            <td>100</td>
+                            <td>1.15</td>
+                            <td>115.00</td>
+                            </tr>
+                        <tr>
+                            <td>Paper(Case)</td>
+                            <td>10</td>
+                            <td>45.99</td>
+                            <td>459.90</td>
+                        </tr>
+                        <tr>
+                            <td>WastePaper Basket</td>
+                            <td>2</td>
+                            <td>17.99</td>
+                            <td>35.98</td>
+                        </tr>
+                        <tr>
+                            <th colspan="3">Subtotal</th>
+                            <td>610.88</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Tax</th>
+                            <td>7%</td>
+                            <td>42.76</td>
+                        </tr>
+                        <tr>
+                            <th colspan="3">Total</th>
+                            <td>653.5</td>
+                        </tr>
+                        
+                       </table>
+                       <hr>
+                       <!--forms and attributes-->
+                       <h1>
+                        Forms and Attributes
+                       </h1>
+                        <form action="https://www.amazon.in/Janasya-Womens-Georgette-Dress-Blue_Small/dp/B099NR7612/ref=sxin_23_pa_sp_search_thematic_sspa?">
+                            
+                       <input type=text  name="content-id=amzn1.sym." placeholder="search in amazon " >
+                            <button type="submit">submit</button>
+                       </form>
+                       
+                       <hr>
+                       <!--checkbox buttons-->
+                       <h1>
+                        Radio checkbox Elements
+                       </h1>
+                        <form action="/server">
+                        
+                       <input type="checkbox" name="age" id="age">
+                       <label for="age">Iam Major(18+)</label>
+                       <div>
+                       <input type="radio" name="fruits" id="fruits" value="apple">
+                       <label for="fruits">apple</label>
+                       <input type="radio" name="fruits" id="fruits" value="banana">
+                       <label for="fruits">banana</label>
+                       <input type="radio" name="fruits" id="fruits" value="mango">
+                       <label for="fruits">mango</label></div>
+                       </form>
+                       <button type="submit">submit</button>
+                       <hr>
+                       <!--Registration Form-->
+                       <h2>
+                        Registration form
+                       </h2>
+                       <form action="/server">
+                       <input type="text" placeholder="First name">
+                       <input type="text" placeholder="Last name"><br>
+                       <p>
+                        <b>
+                            please select the gender
+                        </b>
+                       </p>
+                       <select name="gender" id="gender">
+                       <option value="male">Male</option>
+                       <option value="male">Female</option>
+                       <option value="male">other</option></select><br>
+                       <p>
+                        <b>
+                            Do you agree to all the terms of service?
+                        </b>
+                       </p>
+                       <input type="checkbox" name="info" id="info">
+                       <label for="info"><b>Yes,i agree</b>
+                       </label><div>
+                       
+                       <button type="submit">submit</button></form></div>
+                       <hr>
+                       <h1>
+                        HTML MINI PROJECT
+                       </h1>
+                       <H2>
+                        Welcome to the little Taco Shop
+                       </H2>
+                       <nav>
+                        <ul>
+                            <li><a href="about.html">About LTS</a></li>
+                            <li> <a href="ourmenu.html" >Our Menu</a></li>
+                            <li><a href="hours">Store Hours</a> </li>
+                            <li> <a href=Our Menu>Our Menu</a></li>
+                        </ul>
+                        </nav>
+                        <img src="Images/tacos and drink.jpeg" alt="tacos and drinks" style="height:300px; width:300px;">
+                        <hr>
+                        <h3>
+                            About Last</h3>
+                           <p> LTSwas founded in 2022. our shop was built from a<b>love of tacos.</b>&#127790;&#127790;
+                            &#127790;.We hope our shop add a unique and interesting place to our little towns.
+                            <h4>
+                                Taco Trivia</h4>
+                                <details>
+                                
+                                    <summary >When did tacos first appear in the united Stated?</summary>
+                                    <p>Tacos were first introduced to the United States in 1905 by Mexican migrant workers who brought the food with them to work on railroads and other jobs: 
+                                        Early days
+                                        At first, tacos were considered lower-class street food. 
+                                        Hard-shell tacos
+                                        The earliest references to hard-shell tacos are from the early 1890s. Glen Bell, the founder of Taco Bell, claimed to have invented the hard-shell taco in 1952. 
+                                        Ameri-Mex foods
+                                        By 1920, Mexican immigrants' food began to fuse with American ingredients, creating Ameri-Mex foods. 
+                                        Fast food chains
+                                        In the mid-1950s, fast food chains began to market hard-shell tacos to Americans. Taco Bell played a significant role in popularizing the food. 
+                                        Authentic Mexican restaurants
+                                        Authentic Mexican restaurants are now bringing the real taste of Mexico back to the menu. 
+                                        Some other regional Mexican tacos that have become popular in the U.S. include:
+                                        
+                                        Tacos al pastor
+                                        Invented by second-generation Lebanese Mexicans in the 1960s, this taco features spit-grilled boneless pork, pineapple, and a tortilla.
+                                        
+                                        Barbacoa
+                                        This taco originated in the Caribbean, where Spanish conquistadors saw Indigenous Taínos cook food using a stick framework called a barbacoa. </details>
+                                        </p>
+                                
+                                <hr>
+                                <h3>
+                                    Our Menu
+                                </h3>
+                                <table border="black">
+                                    <caption>
+                                        Our Tacos
+                                    </caption>
+                                    <tr>
+                                        <th>Tacos</th>
+                                        <th>QTy</th>
+                                        <th>Price</th>
+                                    </tr>
+                                    <tr> <th rowspan="3">Crunchy</th> 
+                                        <td>1</td>
+                                        <td> $1.50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td><td>$2.50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>$3.50</td>
+                                    </tr>
+                                    <tr>
+                                        <th rowspan="3">Soft</th>
+                                        <td>2</td>
+                                        <td>$2.50</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>$3.50</td></tr>
+                                            <tr>
+                                            <td>4</td>
+                                            <td>$4.50</td>
+                                        </tr>
+                                        <tr >
+                                        <td colspan="3">Chips & Salsa  $2</td></tr></table><br>
+                                        <a href="#">Back to top</a><hr>
+                                        <p>Copyright the little Taco shop</p><hr>
+                                        <h2>
+                                            The Little Taco Shop Hours
+                                        </h2>
+                                        <nav>
+                                           <ul>
+                                            <li><a href="home">Home</a></li>
+                                            <li><a href="home">About Lts</a></li>
+                                            <li><a href="home">our menu</a></li>
+                                            <li><a href="home">contact us</a></li>
+
+                                           </ul> 
+                                        </nav>
+                                        <img src="Images/Tray of tasty tacos.jpg" alt="Tasty And Tray Of tacos" height="500px;width=500px;">
+                                        <p>A Tray of Tasty Tacos</p><hr>
+                                    <h5>We are open 7 days a week!</h5>
+                                    <dt>Sunday-Thursday</dt>                                
+                                    <dd>11am to 7pm</dd><br>
+                                    <a href="#">Back to Top</a><hr>
+
+                                   <p>Copyright The little Taco shop</p>
+                                   <a href="#">Back to Top</a><br><br>
+                                   <h2>Contact Us</h2>
+                                   <nav>
+                                    <ul>
+                                     <li><a href="home">Home</a></li>
+                                     <li><a href="home">About Lts</a></li>
+                                     <li><a href="home">our menu</a></li>
+                                     <li><a href="home">contact us</a></li>
+
+                                    </ul> 
+                                 </nav>
+                                 <img src="Images/little taco shop.jpg" ait="Little taco shop"><hr><hr>
+                                 <p>Copyright The Little Taco Shop</p>
+                                 <h2>Our Contact Form</h2>
+                                
+                                 
+
+                                   
+
+
+
+
+                                        
+                
+                                        
+                                
+                    
+
+
+                        
+                                
+                                
+                            
+                    
+</body>
+</html>
+
+                                
+                            
+
+
+                        
+
+
+
+
+                       
+                            
+                        
+
+                       
+                       
+                       
+                
+                    
+       
+                       
+
+                       
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+                        
+                            
+                            
+
+        

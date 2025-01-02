@@ -1,0 +1,65 @@
+h1{
+    color: #ffa511;
+    font-family:League spartan;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5px;
+    text-decoration: underline;
+    text-align: center;
+    text-transform:uppercase;
+    text-decoration: teal double;
+    
+    
+}
+h2{
+    color:#1b74e4;
+}
+#login{
+    background-color:rgba(0, 255, 255, 0.854);
+}
+#register{
+    background-color:aqua;
+}
+button{
+    background-color:black;
+    color:white
+}
+div p{
+color:green;
+}
+
+
+.card {
+    width: 400px;
+    border: 2px solid red;
+    background-color: wheat;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px blue;
+}
+.card img {
+    width: 100%; /* Ensure image spans the card's width */
+    border-radius: 5px 5px 0 0;
+}
+.desc {
+    padding: 10px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px goldenrod;
+}
+h1 {
+    color: magenta;
+    text-align: center;
+}
+@media screen and (min-width: 200px) {
+    .Indian_Team {
+        flex-direction: row; /* Switch to row layout on larger screens */
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+p {
+    color: blue;
+}
+
+

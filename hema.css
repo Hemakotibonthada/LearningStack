@@ -1,0 +1,192 @@
+header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-color:purple;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+h2{
+            background-color: rgb(13, 238, 167);
+            text-align: justify;
+}
+div1{
+    P{
+        color: white;
+        background-color: black;
+    }
+    h2{
+        color: orange;
+        font-family: Georgia;
+    }
+    button{
+        background-color: blue;
+        color: white;
+    }
+    Hema{
+        color: #fcba03;
+    }
+    koti{
+        color: #0a81a6;
+    }
+    
+    color: brown;
+    background-color: #ffffff;
+    text-align: center;
+    border:solid
+}
+p{
+    color:darkslategrey ;
+    background-color: whitesmoke;
+    text-align: right;
+}
+
+button{
+    color:darkgoldenrod;
+    background-color: black;
+}
+  test{
+    font-weight: bold;
+    text-decoration:underline ;
+    text-decoration-color: purple;
+    line-height: 2;
+    letter-spacing: 10px;
+    background-color:antiquewhite ;
+    font-size: 15px;
+  }
+  a{
+    text-decoration: none;
+  }
+#practice {
+        font-family: "League Spartan";
+        color: #ffa511;
+        text-align: center;
+        font-size: 55px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        line-height: 1.5x;
+        text-decoration: teal double underline;
+        text-transform: uppercase;
+    }
+*{
+
+    font-family: "courier new";
+}
+#practice1{
+    h1{ 
+        color: #1b74e4;
+        text-align: left;
+        font-size: 40px;
+        font-weight: bold;
+    }
+ .Sign{
+    background-color: aqua;
+    color: #1b74e4;
+ } 
+ .search{
+    background-color: black;
+    color: white;
+ }  
+ #ser{
+    color:black
+ }
+}
+
+#special{
+    color:darkred
+}
+
+.form > ::placeholder {
+    background-color:aqua   
+}
+
+#myId  p{
+    font-size:30px;
+    color: green;
+}
+.Hema{
+    font-size: 50px;
+}
+.Hema:hover{
+    background-color: black;
+    color: #1b74e4;
+    
+}
+.Hema:active label {
+    background-color: whitesmoke;
+    color: red;
+    font-size: 80px;
+}
+#Hema:active +label {
+    background-color: whitesmoke;
+    color: red;
+    font-weight: bold;
+}
+#Teja:active + label {
+    background-color: whitesmoke;
+    color: rgb(5, 13, 167);
+    font-weight: bold;
+}
+
+#kk a{
+    font-size: 20px;
+    background-color: rgb(244, 255, 255);
+}
+.Pavani a{
+    font-size: 50px;
+    background-color: rgb(38, 218, 215);
+}
+a{
+    font-size: 50px;
+    background-color: darkorchid;
+}
+
+#border{
+    height: 300px;
+    width: 650px;
+    border: 6px dotted pink;
+    border-radius: 30px;
+}
+#parent{
+    height: 200px;
+    width: 70px;
+    border: 10px;
+    border:2px solid black;
+    margin: 10px;
+
+}
+.child{
+    height: 20px;
+    width: 20px;
+    border:2px solid black;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+}
+#parent #k{
+    background-color: red;
+}
+#parent #l{
+    background-color: yellow;
+}
+#m{
+    background-color: green;
+}
+    
+#A{
+    height: 300px;
+    width: 90%;
+    background-color: aliceblue;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+}
+#A div{
+    height: 100px;
+    width: 300px;
+    color: aqua;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 1.5em;
+}
