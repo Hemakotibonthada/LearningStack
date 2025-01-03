@@ -8,23 +8,18 @@ img{
     width: 70px;
 
 }
-#teju{
-    display: flex;
-    flex-direction: column;
-    height: 800px;
-    width: 800px;
-    
-    margin:0% auto;
-    border: 5px solid rgb(5, 1, 0);
-    margin: 15px;
-    box-shadow: 5px 5px 15px magenta;
+.teju{
+    display: inline-block
 }
+    
 .card{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     border: 5px seagreen;
     margin: 15px;
-    box-shadow: 5px 5px 15px magenta
+    box-shadow: 5px 5px 15px magenta;
+    position: relative;
+    display: flex;
 }
  .front img{
     height: 50px;
@@ -66,7 +61,7 @@ img{
 }
 .child{
     height: 100px;
-    width: 100px;
+    width: 100px;*/
 }
 #c1{
     background-color: red;
@@ -147,6 +142,5 @@ h1::first-letter{
    
   
 
-    
     
     
