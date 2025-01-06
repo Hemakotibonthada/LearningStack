@@ -10,7 +10,82 @@
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
+    <hr>
+    <h2>Grid Layout.</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col bg-success">One</div>
+        <div class="col bg-body-secondary">Two</div>
+        <div class="col bg-danger">Three</div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-sm-4 col-md-8  col-xl-6 bg-success">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi labore nostrum quis magni dolorum nemo sunt impedit ut, nihil sapiente, sed quas deserunt porro explicabo accusamus laboriosam expedita at incidunt!</div>
+        <div class="col-sm-4  col-md-2 col-xl-6 bg-body-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo suscipit fugit aspernatur quia tempora ad voluptatibus? Aliquam, laudantium labore ipsam obcaecati temporibus quod? Facere aliquam est officiis neque natus nostrum?</div>
+        <div class="col-sm-4  col-md-2 col-xl-6 bg-danger">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto aut accusamus voluptas debitis voluptatum, fugiat eligendi! Accusantium ullam nostrum nisi, quod earum ducimus ea explicabo laudantium voluptatibus iure. Officia, odio.
+        Vel illum aspernatur laboriosam. Sunt placeat, ad magnam distinctio est obcaecati? Culpa, possimus dolor id asperiores ab doloribus beatae sequi incidunt, deserunt iure autem non vel tempora architecto magni harum.
+        Suscipit ab doloribus explicabo harum quis eveniet placeat laboriosam commodi non maxime accusantium aut error quibusdam natus, molestiae praesentium possimus quasi? Adipisci exercitationem tempora, fugiat doloremque delectus corrupti accusantium perferendis?
+        Illo laborum cupiditate beatae temporibus ab dolorem sit, vel modi illum facere eligendi, asperiores consequatur? Omnis sequi illum sapiente, doloremque maiores aliquam, est perferendis, tenetur hic quia ut iusto tempora.
+        Repellendus aliquam sed dolor. Animi molestiae similique quod libero a repudiandae illum blanditiis velit fugit consectetur? Voluptatem quis ducimus ex deserunt illo harum asperiores voluptas sapiente? Veniam dignissimos consectetur delectus.</div>
+    </div>
+</div>
+<hr>
+<div class="container">
+    <div class="row align-items-end">
+        <div class="col bg-warning align-self-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sapiente voluptatem, delectus odit blanditiis nostrum assumenda pariatur repudiandae earum aliquam dolore nulla minima obcaecati, culpa magni laboriosam ratione, amet unde?
+        Velit assumenda, unde accusamus molestias, provident temporibus consectetur itaque, ad quo earum dolores. Cupiditate enim praesentium non labore assumenda rem? Molestias veritatis aperiam obcaecati quae ipsum! Ab repudiandae nulla laborum!
+        Repellendus minima assumenda nemo provident ipsam iste, inventore alias aperiam sint, voluptatem corrupti earum maxime, dolore error perspiciatis quam pariatur adipisci. Non asperiores et nesciunt nemo ex consequuntur error dignissimos!
+        Quos deserunt est veniam quasi ullam saepe asperiores architecto ipsa nobis, exercitationem quae incidunt illum rem dolor natus vero voluptates, commodi delectus error reprehenderit repellat voluptate optio magnam modi! Eaque?
+        Veniam animi vitae molestias quis dolor quo totam voluptatem adipisci consequatur eaque, illum accusantium dolorum neque pariatur eos. Quis tempora enim molestiae atque blanditiis aliquid, deleniti ratione totam perferendis omnis.</div>
+        <div class="col bg-success align-self-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem omnis officia dolorum maiores? Neque rem sunt similique explicabo odit maiores eum architecto, nostrum accusantium ex officia perspiciatis commodi culpa animi.
+        Inventore ea totam consequuntur qui quisquam officia provident officiis, eum ad. Atque sequi quam, excepturi illum debitis, amet iure corporis alias beatae quia consequuntur vel unde cum repudiandae tempora quo?</div>
+        <div class="col bg-info align-self-end">Vero, fugit tempora? Quam consequuntur optio id illum, corrupti sit eligendi deleniti a incidunt? Voluptatum, commodi dolore! Rem, reprehenderit atque vitae voluptatum aliquam cupiditate cum temporibus officia optio harum et?</div>
+    </div>
+</div><hr>
+
+<div class="container">
+    <form action="#" class="mb-3">
+    <div class="row">
+        
+            <div class="mb-3 col-md-6">
+                <label for="Email" class="form-label">Email</label>
+             <input type="email" class="form-control" id="Email" placeholder="Enter Your Email">
+            </div>
+              <div  class="mb-3 col-md-6"> <label for="Password" class="form-label">Password</label>
+               <input type="password" class="form-control " id="Password" placeholder="Enter Your Password">
+         </div>
+    </div>
+
+    <label for="Select" class="form-label">Select Your City</label>
+                <select class="form-select form-select-sm  mb-3" id="Select" aria-label=".form-select-lg example">
+                    <option selected>Choose Your City</option>
+                    <option value="Parvathipuram">Parvathipuram</option>
+                    <option value="Srikakulam">Srikakulam</option>
+                    <option value="Rajamundry">Rajamundry</option>
+                    <option value="Vizianagaram">Vizianagaram</option>
+                    <option name="Vizag" value="Vizag">Vizag</option>
+                </select>
+                <button type="submit" class="btn btn-outline-success">submit</button>
+                 </form>
+    </div><hr>
+
+    <div class="from-check mb-3" style="margin-left: 20px;">
+        <input type="checkbox" class="form-check-input" id="Check" name="Check">
+        <label for="Check" class="form-check-label">Check Me</label>
+        <input type="checkbox" class="form-check-input" id="Check-1" name="Check-1">
+        <label for="Check-1" class="form-check-label">Here</label>
+        <hr>
+
+        <input type="radio" class="form-check-input" id="Check-3" name="Check-3">
+        <label for="Check-3" class="form-check-label">There</label>
+        <input type="radio" class="form-check-input" id="Check-4" name="Check-3">
+        <label for="Check-4" class="form-check-label">Everywhere</label>
+    </div><hr>
+    <div class="form-check form-switch" style="margin-left: 20px;">
+        <input class="form-check-input" type="checkbox" role="switch" id="switch" name="1">
+        <label class="form-check-label" for="switch" name="0">Default switch checkbox input </label>
+      </div>
     <button>Click Me</button>
 
 
@@ -172,7 +247,30 @@
     <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
     <label class="btn btn-outline-primary" for="btncheck3">Checkbox 3</label>
 <!-- </div> -->
+ <hr>
+<div class="container">
+    <form action="#" class="mb-3">
+    <div class="row">
+            <div class="mb-3 col-md-6">
+                <label for="mail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="mail" placeholder="Enter Your Email">
+            </div>
+            <div class="mb-3 col-md-6">
+                <label for="pass=" class="form-label">Password</label>
+                <input type="password" class="form-control" id="pass" placeholder="Enter your password">
+            </div>
+    </div>
+        </form>
+    </div>
 
+    <footer>
+        <p>&copy; 2024 Practice & Work Monitoring</p>
+        <p><a href="about.html">Learn more about us</a></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  
 
 
 </body>
