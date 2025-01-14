@@ -8,15 +8,68 @@ var multiplication = a * b;
 var division = a / b;
 var modular = a % b;
 var exponentiation = a ** b;
-var even = a % 2 === 0;
+var eveen = a % 2 === 0;
 
 let firstname="Hemakoti";
 if (firstname=="Hemakoti"){
     console.log(`Welcome ${firstname}`);    
 }
+let stri=prompt("Enter the string");
+console.log(`this is default string ${stri}`);
+
+console.log(`this is Modified with .trim Method string ${stri.trim()}`);
+
+
+stri=stri.trim();
+
+stri=stri.replace("H","z");
+
+console.log(`this is after replace new string value with replaced with new value:  ${stri}`);
+
+console.log(`this is after replace new string value with replaced with UpperCase:  ${stri.toUpperCase()}`);
+console.log(`this is after replace new string value with replaced with LowerCase:  ${stri.toLowerCase()}`);
+
+
+console.log(`this is a index finding method using indexof:  ${stri.indexOf("oti")}`);
+
+
+console.log(`this is a MethodChaining Method to add one method to another:  ${stri.toUpperCase().indexOf("OTI")}`);
+
+
+msg="Hello";
+console.log(msg.slice(2));
+console.log(msg.slice(1,4));
+console.log(msg.slice(-4,-1));
+console.log(msg.slice(-4));
+console.log(msg.slice(1,-1));
+console.log(msg.substring(1,4));
+console.log(msg.substring(4,1));
+console.log(msg.substring(1,-1));
+console.log(msg.substr(1,4));
+console.log(msg.substr(1,-1));
+console.log(msg.substr(-4,1));
+console.log(msg.substr(-4,-1));
+console.log(msg.substr(-4));
+console.log(msg.substr(1));
+console.log(msg.substr(-1));
+console.log(msg.substr(1,-1));
+console.log(msg.substr(-1,1));
+console.log(msg.substr(-1,-1));
+console.log(msg.substr(1,1));
+console.log(msg.substr(1,0));
+console.log(msg.substr(0,1));
+console.log(msg.substr(0,0));
+console.log(msg.substr(0));
+console.log(msg.substr(-1));
+console.log(msg.substr(1));
+
+
 
 
 let color= "green";
+
+
+
 
 for (let i = 0; i < 3; i++) { // Loop should go up to 3 for the 'yellow' case to be considered
     let color; // Declare the color variable
@@ -40,9 +93,10 @@ for (let i = 0; i < 3; i++) { // Loop should go up to 3 for the 'yellow' case to
         }, 5000 * (i + 1)); // Adjust delay based on iteration
     })(color);
 }
+color=prompt("Enter the color of the traffic light");
 switch(color){  
     case "red":
-        console.log("Please Stop");
+        console.log("Please Stop and this is from prompt input!");
         break;
     case "yellow":
         console.log("Please Wait");
@@ -68,6 +122,44 @@ else{
 
 }
 
+let something="l";
+if (something=="xl"){
+    console.log("Extra Large");
+}
+else if (something=="l"){
+    console.log("Large");
+}
+else if (something=="m"){
+    console.log("Medium");
+}
+else if (something=="s"){
+    console.log("Small");
+}
+else{
+    console.log("Please Enter Valid Size");
+}
+
+let num = 12;
+if ( (num%3 === 0) && ( (num+1 == 15) || (num-1 == 11) ) ) {
+console. log ("safe");
+}
+else {
+console. log ("unsafe");
+}
+let colour = "red";
+switch (colour) {
+case "red" :
+console. log ("stop"); break;
+case "yellow" :
+console. log ("slow down" ); break;
+case "green" :
+console. log ("G0");
+break;
+default :
+console. log ("Broken Light");
+}
+
+alert("This is an alert box");
 var resultsDiv = document.getElementById('results');
 resultsDiv.innerHTML = `
     <h2>Arithmetic Operations</h2>
