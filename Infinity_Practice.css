@@ -1,0 +1,177 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #f7f9fc, #ffffff);
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+    text-shadow: 1px 1px 10px rgba(0, 123, 255, 0.7);
+}
+
+header {
+    background: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3, h5 {
+    margin: 20px 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    margin: 10px 0;
+}
+
+ul, ol {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+    transition: transform 0.2s, filter 0.2s;
+}
+
+li:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    margin: 5px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Table Styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table caption {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background: #007bff;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+table tr:hover {
+    background: rgba(0, 123, 255, 0.1);
+}
+
+/* Form Styling */
+form {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #f9f9f9;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+form input, form select, form button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+form input:focus, form select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Sections */
+section, aside {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 4px;
+    background: rgba(0, 123, 255, 0.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover Effects for Links */
+a:hover {
+    color: #ff5722;
+    text-shadow: 2px 2px 4px rgba(255, 87, 34, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        font-size: 18px;
+        padding: 8px 0;
+    }
+
+    table th, table td {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
