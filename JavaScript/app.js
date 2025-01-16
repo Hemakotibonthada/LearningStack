@@ -69,7 +69,7 @@ else{
 }
 
 var resultsDiv = document.getElementById('results');
-resultsDiv.innerHTML = `
+resultsDiv.innerHTML = 
     <h2>Arithmetic Operations</h2>
     <p>Value of A: ${a}</p>
     <p>Value of B: ${b}</p>
