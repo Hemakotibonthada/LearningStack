@@ -161,7 +161,7 @@ console. log ("Broken Light");
 
 alert("This is an alert box");
 var resultsDiv = document.getElementById('results');
-resultsDiv.innerHTML = 
+resultsDiv.innerHTML =` 
     <h2>Arithmetic Operations</h2>
     <p>Value of A: ${a}</p>
     <p>Value of B: ${b}</p>
@@ -251,6 +251,10 @@ if(marks>=80){
     console.log("Grade C");
 }
  else{
-    console.log("Fail");
+    console.log("Fail"); 
 }
 
+
+
+
+    
