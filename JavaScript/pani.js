@@ -51,8 +51,7 @@ function oddOreven(request){
     }
 const calculator ={
 
-     num=55
-
+   
     add:function(a,b){
         return(a+b);
     },
@@ -64,6 +63,14 @@ const calculator ={
     }
 
 }
+const mul=(a,b)=>(
+    a*b
+)
+const pani=(c,d)=>(c**d)
+
+console.log("hii everyone");
+setTimeout( ()=>{console.log("my name is pavani"); },9000);
+console.log("welocome to my world");
 
 
 
