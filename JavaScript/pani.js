@@ -71,6 +71,23 @@ const pani=(c,d)=>(c**d)
 console.log("hii everyone");
 setTimeout( ()=>{console.log("my name is pavani"); },9000);
 console.log("welocome to my world");
+//this keyword
+
+const student = {
+    name: 'pavani',
+    age: 23,
+    eng: 95,
+    math: 97,
+    os: 95,
+    getAvg() {
+        let avg = (this.eng + this.math + this.os) / 3;
+        console.log(`${this.name} got avg marks ${avg}`); 
+    }
+};
+
+
+
+
 
 
 
