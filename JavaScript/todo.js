@@ -201,18 +201,120 @@
 //     }
 // }
 
-const calculator=
-{
- add:function(a,b){
-    return a+b;
- },
- sub:function(a,b){
-    return a-b;
- },
- mul:function(a,b){
-    return a*b;
- },
- div:function(a,b){
-    return a/b;
- }
-}
+// const calculator=
+// {
+//  add:function(a,b){
+//     return a+b;
+//  },
+//  sub:function(a,b){
+//     return a-b;
+//  },
+//  mul:function(a,b){
+//     return a*b;
+//  },
+//  div:function(a,b){
+//     return a/b;
+//  }
+// }
+
+
+// const Hema={
+//    full_name:"Hema Koteswar Naidu",
+//    profession:"Software Engineer(TCS), DevOps(Microsoft) || CEO Of Infinity Innovations and Solutions Pvt Ltd.",
+//    age:25,
+//    location:"Hyderabad",
+//    getmybio(){
+//       let mydetails=("I am "+this.full_name+" I'm Working as"+this.profession+" My Age is: "+this.age+" Now i'm in "+this.location);
+//       console.log(mydetails)
+//       try{
+//          if (this.age>20){
+//             console.log("Nuvvu Peddodivi Aipoyav Basu..!");
+//          }
+//       }
+//          catch(err){
+//             console.log("Nuvvu This Key Word Use Cheyyale Ga ??");
+//             console.log(err);
+//          }
+//    }
+// }
+// console.log("This is a Print Statment");
+// Hema.getmybio();
+
+// console.log("This is a Print Statment-2");
+
+
+// const arrow=(n)=>{
+//    console.log("This is a Arrow Function: ");
+//    return n**10;
+// }
+
+
+// const hema=(n,m)=>(n**m);
+
+// console.log("Hey There!");
+// setTimeout(()=>{console.log("This is 1st Second");},1000);
+// setTimeout(()=>{console.log("This is 2nd Second");},2000);
+// setTimeout(()=>{console.log("This is 3rd Second");},3000);
+// setTimeout(()=>{console.log("Hemakoti Here..");},4000);
+// console.log("Hemakoti Here will print after 4 seconds: -.");
+
+
+// console.log("Hey There!");
+// setTimeout(testfunction,3000);
+// let n=25;
+// function testfunction(){
+//     console.log("This is a Test Function That needs to delay for 3 sec");
+// }
+
+// const funname=(n)=>{
+//     console.log("This is hemakoti bonthada");
+//     if (n>=20){
+//         console.log(`Your Age is Greater than or Equal To 20 and Your Entered Age is ${n}`);
+//     }
+// }
+
+// // const funwithreturn=n=>(n**10);
+// try{
+//     console.log(`This is the value of a in the Normal Function class: ${this.a}`);
+//     console.log(this);
+// }catch(err){
+//     console.log("This is a Catch Block");
+//     console.log(err);
+// };
+// let a=33;
+// const Hemakoti={
+//     a:10,
+//     k: function(){
+//         a=44;
+//         console.log(`This is the value of a in the Normal Function class: ${this.a}`);
+//     },
+//     t:()=>{
+//         console.log(`This is the value of a in arrow function class: ${this.a}`);  
+//     },
+//     getinfo1:
+//     function(){
+//     setTimeout(()=>{
+//         console.log(this);
+//         console.log("This is Arrow Function!")
+//         console.log(this.a);
+//     },1500);
+//     },
+//     getinfo2:
+//     function(){
+//         setTimeout(function(){
+//             console.log("This is Normal Function!")
+//             console.log(this);
+//             console.log(this.a);
+//         },1500);
+//         },
+// }
+
+
+
+// let hema=setInterval(testfunction,1500);
+// let koti=setInterval(funname,1500);
+// console.log(`This is the id for hema function : ${hema}`);
+// console.log(`This is the id for koti function : ${koti}`);
+
+//Hemakoti;
+const sqaonfn=(n)=>(n**2);
