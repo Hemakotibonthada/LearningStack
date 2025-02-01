@@ -14,7 +14,7 @@ let firstname="Hemakoti";
 if (firstname=="Hemakoti"){
     console.log(`Welcome ${firstname}`);    
 }
-let stri=prompt("Enter the string");
+let stri="Enter the string";
 console.log(`this is default string ${stri}`);
 
 console.log(`this is Modified with .trim Method string ${stri.trim()}`);
@@ -93,7 +93,7 @@ for (let i = 0; i < 3; i++) { // Loop should go up to 3 for the 'yellow' case to
         }, 5000 * (i + 1)); // Adjust delay based on iteration
     })(color);
 }
-color=prompt("Enter the color of the traffic light");
+color="red";
 switch(color){  
     case "red":
         console.log("Please Stop and this is from prompt input!");
@@ -159,7 +159,52 @@ default :
 console. log ("Broken Light");
 }
 
+let colours=["red","yellow","green"];
+
+  
 alert("This is an alert box");
+
+for (let i = 1; i <= 10; i++) {
+    console.log(`5 x ${i} = ${5 * i}`);
+}
+for (let i=1;i<=20;i++){
+    console.log(`10 x ${i} = ${i*10}`);
+}
+
+
+for (let i=1;i<=10;i++){
+    console.log(`1024 x ${i} = ${i*1024} `)
+}
+
+let n=2;
+n=parseInt(n);
+for (let i=1;i<=10;i++){
+    console.log(`${n} x ${i} = ${n*i}`);
+}
+let con="yes";
+let name="";
+while(con=="yes" && name!="quit"){
+    name=prompt("Guess my Favorite movie name & if you wanna quit enter 'quit'");
+    if (name.toUpperCase()=="Deadpool".toUpperCase()){
+        alert("You have guessed it right");
+        console.log("You have guessed it right");
+        break;
+    }
+    else{
+        alert("You have guessed it wrong");
+    }
+}
+let fruits=["apple","banana","mango","orange","grapes"];
+for (let i=0;i<fruits.length;i++){
+    console.log(i,fruits[i]);
+}
+for (fruit of fruits)
+{
+    console.log(fruit);
+}
+for (i of "hemakotibonthada"){
+    console.log(i);
+}
 var resultsDiv = document.getElementById('results');
 resultsDiv.innerHTML =` 
     <h2>Arithmetic Operations</h2>
@@ -228,13 +273,20 @@ resultsDiv.innerHTML =`
     <p>new (new Number(a)): ${new Number(a)}</p>
     <p>this (this): ${this}</p>
     <p>void (void a): ${void a}</p>
-
-
+    <p>concept of arrays </p>
+    <p>Array: ${colours}</p>
+    <p>Array Length: ${colours.length}</p>
+    <p>Array Index: ${colours[0]}</p>
+    <p>Array Index: ${colours[1]}</p>
+    <p>Array Index: ${colours[2]}</p>
+    <p>Array Index: ${colours[3]}</p>
+    <p>Array Index: ${colours[4].push("pink")}</p>
 `;
 
 console.log("Addition:", addition);
 console.log("Subtraction:", subtraction);
 console.log("Multiplication:", multiplication);
+<<<<<<< HEAD
 console.log("Division:", division);
 
 
@@ -258,3 +310,6 @@ if(marks>=80){
 
 
     
+=======
+console.log("Division:", division);
+>>>>>>> a13be0905590513f066fe00bad51c3af67d39042
