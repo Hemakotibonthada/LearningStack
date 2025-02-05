@@ -317,4 +317,112 @@
 // console.log(`This is the id for koti function : ${koti}`);
 
 //Hemakoti;
+const sqareofn=(n)=>{
+    return (n**2);
+};
 const sqaonfn=(n)=>(n**2);
+
+
+// let hw=setInterval(()=>{
+//     console.log("Hello World");
+// },2000);
+// setTimeout(()=>{
+//         clearInterval(hw);
+//     },10000);
+const student=[{
+        name:"Hemakoti Bonthada",
+        age:25,
+        interests:['Coding','Reading','Writing','Sleeping'],
+        marks:78.85,
+        maritialStatus:"Married",
+        spouse:"Tejasri"
+    },
+    {
+        name:"Tejasri Bonthada",
+        age:23,
+        interests:['Coding','Reading','Writing','Sleeping'],
+        marks:98.85,
+        maritialStatus:"Married",
+        spouse:"Hemakoti Bonthada"
+    },
+    {
+        name:"Pavani Ganta",
+        age:23,
+        interests:['Coding','Reading','Writing','Sleeping'],
+        marks:90,
+        maritialStatus:"Single",
+        spouse:"NA"
+    }
+]
+// console.log("Traditional Method");
+// for (el of student){
+//     console.log(el.name);
+//}
+// for (let i=0;i<student.length();i++){
+//     console.log(student.name);
+// }
+
+// console.log("by calling function name method");
+// function names(name){
+//     console.log(name.name);
+// }
+// student.forEach(names);
+
+// console.log("By Passing Function Method");
+// student.forEach(function(names){
+//     console.log(names.name);
+// });
+
+// console.log("by using Arrow Function Method");
+// student.forEach((student)=>{
+//     console.log(student.name);
+// });
+
+// let z=[];
+// numbers.forEach(function(el){
+//     console.log(el);
+//     z+=(el**el)+" ,";
+// });
+// let k=numbers.map(function(el){
+//     console.log(el);
+//     return el**el;
+// });
+// let gpa=numbers.map((el)=> (el/10));
+// gpa.forEach(function(el){
+//     console.log(`${el}`)});
+
+// let fil=numbers.filter((el)=>{
+//     return el <56;
+// })
+let numbers=[10,22,33,100,2000,343,2333,44,55,5555,10000];
+// let everychecking=numbers.every((el)=>(el%2==0));
+// console.log(everychecking); 
+// let sumchecking=numbers.some((el)=>(el%2==0));
+// console.log(sumchecking); 
+//  let sum=numbers.reduce((res,el)=>(res+el));
+// console.log(sum);
+max=-1;
+// for (let i=0 ; i<numbers.length;i++){
+//     if (max<numbers[i]){
+//         max=numbers[i];
+//     }
+// }
+// let answer=numbers.reduce((max,el)=>{
+//     if ((el%10)==0){
+//         console.log(el);
+//            return el;
+//       }
+// })
+// let min=10000;
+//  min=numbers.reduce((min,el)=>{
+//     if (min>el){
+//            return el;
+//       }else{
+//        return min;
+//       }
+// })
+// console.log(`this is the minumum value in the array ${min}`);
+// function def(a,b=2){
+//     return a+b;
+// }
+
