@@ -135,6 +135,30 @@ arr1.forEach((data)=>{
         console.log(arr1.length);
     }
  
+console.log("map function");
+let s =[1,2,3,4];
+let double=s.map(function(el){
+return el*2;
+
+});
+console.log(double);
+console.log("****");
+let n= [1,3,4,6,7,9,10];
+let ans = n.filter((el)=>{
+   return el>5;
+
+});
+console.log(ans);
+console.log("**************");
+ let array = [5,3,8,7,10];
+max=1;
+for(let i=0;i<array.length;i++){
+    if(max<array[i]){
+       max=array[i];
+    }
+}
+console.log(max);
+
 
 
 
