@@ -394,7 +394,8 @@ const student=[{
 // let fil=numbers.filter((el)=>{
 //     return el <56;
 // })
-let numbers=[10,22,33,100,2000,343,2333,44,55,5555,10000];
+let num=[10,22,33,100,2000,343,2333,44,55,5555,10000];
+let str="Hemakotibonthada";
 // let everychecking=numbers.every((el)=>(el%2==0));
 // console.log(everychecking); 
 // let sumchecking=numbers.some((el)=>(el%2==0));
@@ -425,4 +426,37 @@ max=-1;
 // function def(a,b=2){
 //     return a+b;
 // }
+even=[];
+odd=[]
+for (let i=0,j=0;i<=100;i++){
+    if(i%2==0){
+    even[j]=i;
+    j++;
+    }
+}
+for (let i=0,j=0;i<=100;i++){
+    if(i%2!=0){
+    odd[j]=i;
+    j++;
+    }
+}
+let my={
+    name:"Hema Koteswar Naidu",
+    mail:"Hemakotibonthada@gmail.com",
+    username:"Hemakoti.bonthada",
+    password:"Pakkaki poi aduko",
+    city:"HYD"
+};
+
+let {username:user,password:pass,city}=my;
+let my1={...my,ph:9966123105,...even};
+Math.min();
+
+function sum(...args){
+    return args.reduce((res,el)=>(res+el));
+}
+
+let pillulu=["Hema Koteswar Naidu",'Teja Naidu','Pavani Ganta','RamZan Shaik']
+let [stupid, topper,...others]=pillulu;
+
 

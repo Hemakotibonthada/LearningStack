@@ -286,9 +286,7 @@ resultsDiv.innerHTML =`
 console.log("Addition:", addition);
 console.log("Subtraction:", subtraction);
 console.log("Multiplication:", multiplication);
-<<<<<<< HEAD
 console.log("Division:", division);
-
 
 
 ////This is For Teja's Place////
@@ -305,11 +303,3 @@ if(marks>=80){
  else{
     console.log("Fail"); 
 }
-
-
-
-
-    
-=======
-console.log("Division:", division);
->>>>>>> a13be0905590513f066fe00bad51c3af67d39042
