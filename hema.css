@@ -175,3 +175,21 @@ a:hover {
         padding: 8px;
     }
 }
+#myImage{
+    height: 300px; 
+    width: 300px; 
+}
+#Hemakoti{
+    border-radius: 50%;
+}
+.me{
+    background-color: pink;
+}
+.teju{
+    background-color: purple;
+}
+.all{
+    *{
+        background-color: black;
+    }
+}

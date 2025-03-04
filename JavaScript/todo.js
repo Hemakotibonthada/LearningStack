@@ -459,4 +459,50 @@ function sum(...args){
 let pillulu=["Hema Koteswar Naidu",'Teja Naidu','Pavani Ganta','RamZan Shaik']
 let [stupid, topper,...others]=pillulu;
 
+let k=document.getElementsByClassName("testingcode");
+for(let i=0;i<k.length;i++){
+    console.dir(k[i]);
+}
 
+let p=document.createElement('p');
+let body=document.querySelector('body');
+p.innerText="Hey There i'm Red!";
+body.append(p);
+p.style.color='red';
+
+let h3=document.createElement('h3');
+h3.innerText="Hey There blue and h3!";
+body.append(h3);
+h3.style.color='blue';
+
+let div=document.createElement('div');
+body.append(div);
+div.style.border='2px solid black'
+div.style.backgroundColor='pink'
+
+
+
+let h1=document.createElement('h1')
+h1.innerText="Hey I'm in Div";
+div.append(h1)
+
+let p1=document.createElement('p1')
+p1.innerText='Me Too In the Div'
+div.append(p1)
+
+let btns=document.querySelectorAll('button');
+for (btn of btns){
+    btn.onclick=fun;
+    btn.onclick=Hemaaa;
+   btn.addEventListener('click',fun);
+    btn.addEventListener('click',Hemaaa);
+
+}
+function fun(){
+    console.dir(btn);
+    console.log('Button was clicked!');
+} 
+function Hemaaa(){
+console.log('Your System Hasbeen Compramised.');
+
+}
