@@ -30,3 +30,5 @@ h2.addEventListener('click',function(){
 div.addEventListener('mouseenter',function(){
     console.log('user is inside the div');
 })
+
+
